@@ -1,0 +1,7 @@
+#Cosas a ignorar
+*.log
+*.pot
+*.pyc
+__pycache__/
+/auth
+local_settings.py
