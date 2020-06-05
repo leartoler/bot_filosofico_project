@@ -1,0 +1,415 @@
+
+Rhythm and Technics: On Heidegger’s Commentary on Rimbaud
+
+Yuk Hui
+Leuphana University
+
+yuk.hui@leuphana.de
+
+Abstract
+
+This article takes up Heidegger’s commentary on Rimbaud’s Lettres du voyant as the starting point for an exploration of the question of rhythm in Heidegger’s thought, and an attempt to situate it within his understanding of technics and Being. Besides pursu-ing a historical study of the concept of rhythm in Heidegger’s work, this article pro-poses to understand rhythm through the concept of individuation. It responds to the French philosopher Jacques Garelli’s critique of Heidegger that the latter ignores the question of individuation and always starts with beings that are already individuated. On the contrary, this article attempts to sketch a theory of individuation of rhythm in Heidegger’s proper thinking through a re-interpretation of the Fug—a word he used to translate the Greek word δίκη and words derived from it: joint (Fuge), structure (Gefüge), submission (sich fugen), etc.
+
+Keywords
+
+Heidegger – Simondon – Garelli – individuation – rhythm
+
+In 1972, in a letter addressed to the French writer Roger Munier, Heidegger mentioned a collection of poems by Arthur Rimbaud prefaced by René Char.1 This letter was later published in Aus der Erfahrung des Denkens (GA 13) with the title Rimbaud Vivant. It was probably the first time Heidegger had talked about a poet without citing his or her poem. Heidegger was impressed by two letters included in this volume, and was therefore motivated to write the small
+
+1  I would like to thank Pieter Lemmens for his comments on the first draft of this article.
+
+61Rhythm and Technics
+
+research in phenomenology 47 (2017) 60–84
+
+article, directly as a response to his correspondence with René Char. Heidegger posed the question at the beginning: what does it mean to be a significant [lebendig] poet today? Heidegger immediately replied that the poet must have a certain relation to the arrival of the unknown [Unbekannten]. This relation consists of defining the role of a poet and artist after modernisation, namely after the development of modern science and technology.
+
+The story in relation to Rimbaud can be traced to Heidegger’s personal encounter with René Char since 1955 in Ménilmontant in Paris,2 and the latter’s long term interest in Rimbaud. Jean Beaufret recalls Char saying to Heidegger, “the poem has no remembrance [Andenken]. Always what is longed for is that one goes towards what lies ahead [ins Voraus]—towards the unknown (Unbekannte).” Later that night, upon returning home, Heidegger told Beaufret, “what Char said is appropriate. It is the difference between thinking and poetry. Poetry goes always and increasingly towards what lies ahead, while thinking according to its essence is remembrance (An-denken); nevertheless poetry remains for it an indispensable condition.”3 In Heidegger’s remark, poetry is essential and indispensable for thinking. They seem to be two parts of a process that complement each other: poetry aims for what is “ahead,” think-ing aims for the behind, the past, the remembrance. However, this distinction is ambiguous, since at a certain point, it seems totally blurred in the jointure [Gefüge], for example during Heidegger’s 1941/42 Winter semester course on Hölderlin’s poem “Andenken,” and 1942 on “der Ister,” where Andenken also belongs to poetry, and is the “becoming homely,” and as such it “can rupture such forgottenness” (of Being).4
+
+This relation between thinking and poetry has been widely explored con-cerning Heidegger’s relation to poets such as Hölderlin, Rilke, Trakl, and George; the relation between thinking and technics has been also analysed by numerous philosophers, among them, Rudolf Boehm, whose 1960 essay “Pensée et technique. Notes préliminaires pour une question touchant la pro-blématique heideggerienne” attempts to show that technics is essential for the
+
+2  Beaufret (1988, pp. 247–252). Jean Beaufret, “In Frankreich,” in Martin Heidegger in Gespräch, ed. Günther Neske and Emil Kettering (Pfullingen: Neske, 1988), 247–252.
+
+3  Ibid., 247–248: “Das Gedicht hat kein Andenken. Von mir verlangt man, immer weiter ins Voraus—ins Unbekannte—zu gehen”, “Treffend, was Char sagte. Das ist der ganze Unterschied zwischen Denken und Dichten. Das Dichten geht immer weiter ins Voraus, das Denken aber ist seinem Wesen gemäß An-Denken; und dennoch bleibt das Dichten für es unerlässliche Bedingung.”
+
+4  J. Gosetti-Ferencei, Heidegger, Hölderlin, and the Subject of Poetic Language: Toward a New Poetics of Dasein (New York: Fordham University Press, 1994), 233.
+
+62 hui
+
+research in phenomenology 47 (2017) 60–84
+
+thinking of the question of Being.5 However, the relation between poetry and technics seems to be not yet sufficiently analyzed, apart from some attempts to understand what Heidegger calls Gelassenheit. Is it possible to think of a productive relation between technology and poetry, other than the new genre in literature like “digital poetry,” which basically does not touch the essence of technology at all? We shall proceed with the following questions: shall think-ing be the mediator, by which such a relation can be established? If it is so, how can we approach this question? And if it is not, then what would the dynamics look like? This article suggests that Heidegger’s remarks on Rimbaud may serve the communication between poetry and technics as well as thinking.
+
+We will however, bypass a more detailed historical correspondence on the relation between Heidegger and Char mediated by the figure of Rimbaud, for example, Char’s invitation of Heidegger for a seminar at the university of Aix-en-Provence in 1966 and the later seminars in Le Thor; and in the same year, Char’s publication of an article titled “Réponses interrogatives à une question de Martin Heidegger,” which centres around a verse from Rimbaud that we are going to analyse in the next section. The literature scholar Anne-Marie Fortier’s René Char et la métaphore Rimbaud, especially chapter 5, L’ombre sur la rive, has produced an excellent analysis of the Heidegger-Char correspondence.6 However it is not my/our intention to repeat this analysis, but rather to take another path. Central to this essay is the question of rhythm. Here rhythm doesn’t specifically refer to music, but as we will see later, it des-ignates relations in movement.7 This article hence will focus on the question of rhythm, and trace and construct its position in Heidegger’s thinking after the Kehre. It is largely inspired by the French philosopher Jacques Garelli, who in his Rhythms and Worlds [Rhythmes et mondes], performed a reading of Heidegger through Gilbert Simondon’s concept of individuation. This read-ing is constructive and relevant to our search in two ways. Firstly it allows a reading of Heidegger’s concept of rhythm as a dynamic process, which in turn allows a new perspective for understanding the relation between technics and Being; secondly, Gilbert Simondon is one of the most important thinkers of technology in the 20th century, his On the Mode of Existence of Technical
+
+5  Rudolf Boehm, “Pensée et technique. Notes préliminaires pour une question touchant la pro-blématique heideggerienne,” Revue Internationale de Philosophie Vol. 14, No. 52 (2) (1960), pp. 194–220.
+
+6  Fortier (1999, pp. 195–234).7  In fact, Heidegger doesn’t seem to have been an expert in music, and according to his biog-
+
+rapher Alfred Denker (from personal correspondence), Heidegger’s favorite composer was Mozart, and he had a gramophone in his hut, where he listened to music in the evening.
+
+63Rhythm and Technics
+
+research in phenomenology 47 (2017) 60–84
+
+Objects is one of the most original and fine studies of the genesis of technol-ogy as well as an indirect response to the question of the Gestell. A reading of Heidegger through Simondon hopes to take his reductive thinking on technol-ogy to a new terrain, to shed new light on the understanding of technics, and to hint at a different approach toward technology other than that of Gelassenheit.
+
+1 The Call of the Poet
+
+Heidegger’s reflections on Rimbaud centre on two quotes that can be found in Rimbaud’s letter to Paul Demeny dated May 15, 1871, now known as the Lettres du Voyant:
+
+[E]n Grèce, vers et lyres rhythment l’Actionla poésie ne rhythmera plus l’action ; elle sera en avant
+
+(In Greece, verses and lyres take their rhythm from Action.Poetry will no longer takes it rhythm from action; it will be ahead of it).
+
+At first glance, this shift in the function of rhythm corresponds to the problem-atic of technological development as well as the revelation of the task of poets that Heidegger has already discussed at length, in his writings on Hölderlin, Trakl, Rilke, and George. The forgetting of Being [Seinsvergessenheit] culmi-nates in the development of modern science and technology, creating an uprooting event [Entwurzelung], a detachment of European culture from its Greek origin, an oblivion of the meaning of Being for the ancient Greeks. The uprooting event is accompanied by the destitute time of the night, in which the withdrawal of Being leads to a lack of “unconcealedness of pain, death and love.”8 In Wozu Dichter? (GA 5), Heidegger writes in a poetic tone, anticipating the endless winter brought by technology: “the essence of technology comes to the light of day only slowly. This day is the world’s night, rearranged into merely technological day. This day is the shortest day. It threatens a single end-less winter.”9 Rilke, and later, towards the end of the essay Hölderlin, enter in, both poets proposing for Heidegger a non-objective and non-calculative think-ing as the way to get out of this dark winter. However, such a general reading of the philosopher’s take on poetry may prevent us from investigating something more subtle and complex, which is the concept of rhythm in poetry and its
+
+8  In Heidegger, trans. Hofstadter, Poetry, Language, Thought (San Francisco: Harper, 2001), 95.9  Ibid., 115.
+
+64 hui
+
+research in phenomenology 47 (2017) 60–84
+
+implication for thinking along the lines of technology. Poetry is crucial, since for Heidegger all types of art should be considered essentially poetic: “[T]he one concerns art. In it (art) the essential determining force is the poetic.”10 First of all, we need to ask: what does Heidegger mean by rhythm? What is its relation to poetry, and what is its relation to the question of Being?
+
+Reflecting on Rimbaud’s letter, Heidegger asks, what does it mean exactly by “en avant” or “im Voraus”? Does “en avant” refer to time, meaning something that has happened before? Or does it also refer to something non-temporal, meaning the precedence or the priority (der Vorrang) of poetry over all action? Heidegger’s words to Jean Beaufret in his memoir suggest that the “Voraus” is essential to poetry, and that it is what distinguishes poetry from thinking. The second sense of “en avant” also means that poetry is what conditions think-ing since it is already ahead of it, hence the ground of all actions. Rimbaud uses the future tense here, “it will be in advance”; and the first sentence sug-gests that there has been a “synchronisation” between rhythm and action in ancient times. The future tense here is a prophecy as well as an affirmation of the obligation of poetry. Poetry’s detachment from action seems to Heidegger to be a necessity rather than an accidental event. Poetry is words that serve as calls, which call in the “nearness of the unapproachable” (die Nähe des Unzugangbaren). Heidegger then hearkens back to the word rhythm by asking, what does rhythm really mean for the ancient Greeks. He quotes Archilochos (ca. 650 BC): “to realize, however, that a kind of relation holds the human (lerne kennen aber, ein wiegeartetes Ver-Hältnis [die] Menschen halt).11
+
+Rhythm is what holds—halten—the human in relations. We notice here that Heidegger replaces the Greek word ῤυθμός with Ver-Hältnis, meaning rela-tion. Ver-Hältnis comes from the verb verhalten, to behave, to comport; the hyphen between ver- and halten, gives another meaning, as halten means to hold, and the prefix ver- signifies action. Another word that is often translated as relation in Heidegger’s text is Bezug, which he names as Rilke’s basic word. Bezug, doesn’t simply mean reference, relation assigned by the subject to the object, but also has a more significant meaning in Rilke’s poetry, namely “to bring something from somewhere, to secure it, make it come.”12 Bezug shares some similarity with Verhältnis, however in the context of Bezug in 1946, Heidegger is concerned with the question of the Open, and Bezug serves as the drawing-forcing; while in the context of Ver-hältnis, a more dynamic process
+
+10  Heidegger, GA 76: 385, “das Eine betrifft die Kunst. In ihr ist die wesentlich bestimmend Macht das Dichterische.”
+
+11  Heidegger, GA 40: 227.12  Heidegger, Poetry, Language, Thought, 102.
+
+65Rhythm and Technics
+
+research in phenomenology 47 (2017) 60–84
+
+of rhythm, or creation of structure is of concern. He further asks, “will the say-ing of the coming poet build upon the structure (Gefüge) of this relation, and in so doing prepare men a new dwelling upon the earth?”13 We will come to the word Gefüge and other words like Fügung, Verfügen, Einfügung, sich fugen, etc. coming from the root Fuge later, but we shall first ask: why did Heidegger deliberately choose to translate ῤυθμός here as relation? And if rhythm and relation are interchangeable, what allows them to be interchangeable as such? This seems to be a key point in order to investigate into the meaning of rhythm in the thought of Heidegger. These are questions that constitute what I will explain in the next sections as the individuation of rhythm, a concept borrowed from the French philosopher Gilbert Simondon. Simondon is not a poet, and he didn’t write about poetry and rarely mentioned Heidegger. More precisely, it is Jacques Garelli, a poet as well as a phenomenologist, who acts as a bridge between the two here. The encounter with Simondon’s thought inspired his significant work on poetry and phenomenology Rhythms and Worlds; and to Simondon, he also contributed a preface to his principle oeuvre L’individuation à la lumière des notions de forme et d’information (2005).
+
+2 Rhythm and Individuation
+
+Before we move further in our analysis, we need to settle some of the etymo-logical problems concerning the word rhythm, in order to clarify the relation between rhythm and metrics in poetry. The French linguist Emile Benveniste, in Problems in General Linguistics, showed that most of the dictionaries give a wrong explanation of the origin of the word, which draws its origin from the Greek verb ῤεῖν meaning “to flow,” and thus explains rhythm as the “regular movement of the waves.” Benveniste proposed that this association is wrong even though we can derive an amorphous relation between the verb flow and rhythm. Instead he showed, by an exhaustive list of examples in which the word ῤυθμός was used, including in works of Leucippus, Democritus, Herodotus, Plato and Aristotle, that rhythm originally means form. ῤυθμός was “understood as the distinctive form, the characteristic arrangement of the parts in a whole.”14 For example in Aristotle’s Metaphysics, he proposes that “things are differentiated by ῤυθμός , by διαθίγη and by τροπή; the ῤυθμός is the σχῆμα (form), the διαθίγη (contact) is the τάξις (order), and the τροπή (turn)
+
+13  Heidegger, GA 13: 227, “[W]ird das Sagen des kommenden Dichters am Gefüge dieses Verhältnisses bauen und so dem menschen den neuen Aufenthalt auf der Erde bereiten?”.
+
+14  E. Benveniste, Problems in General Linguistics (Miami: Miami University Press, 1973), 283.
+
+66 hui
+
+research in phenomenology 47 (2017) 60–84
+
+is the θέσις (position).”15 The conception of rhythm as regular movement was fixed in the 5th century through a second specialisation. This may further complicate our investigation, since the question will be whether the relations that Heidegger discusses has something to do with forms? And if metrics is regarded as form, shall we not already identify rhythm with metrics if we want to go to the ancient concept? On the other hand, Heidegger’s fierce critique of hylomorphism doesn’t seem to even tolerate this gesture of equalling rhythm and form. This will be clear, when we refer to Heidegger’s analysis of the four causes in Aristotle’s Metaphysics in The Question Concerning Technology:
+
+(1) The causa materialis, the material, the matter out of which, for exam-ple, a silver chalice is made; (2) the causa formalis, the form, the shape into which the material enters; (3) the causa finalis, the end, for example, the sacrificial rite in relation to which the chalice required is determined as to its form and matter; (4) the causa efficiens, which brings about the effect that is the finished, actual chalice, in this instance, the silversmith.16
+
+This bringing forth into presence, is the essence of ποίσις in Greek, or hervor-bringen in German. Heidegger continues, “Bringing forth comes to pass only in so far as something concealed comes into unconcealment. This coming rests and moves freely within what we call revealing (das Entbergen). The Greek has the word ἀλήθεια for revealing.”17 Even in the four causes, we already discov-ered the principle of hylomorphism: the separation between form and matter, with matter assigned as the first cause of being. Forms are imposed on matters in order to determine its being. In the previous example of the silver chalice, where visual and haptic senses are both present in the process of making, the artisans bring the objects into presence; but in the form of imposition practices (of pre-existing ideas/forms imposed upon an inert matter), abstract thinking precedes the process of making. This transition is what Heidegger calls forget-ting of Being as closure. If we understand things in terms of hylomorphism, it will only blind us to the final cause, to the true meaning of τέχνη, which is also art in ancient Greek.
+
+But now if rhythm is not exactly form, then what will its relation with metrics be? Form must be distinguished from rhythm—at least the temporal dimen-sion apparently gives a dynamic that the word form is not normally associated with, even though we cannot reject a close relation between the two. And to
+
+15  Ibid., 282.16  Heidegger, GA 5: 6.17  Ιbid.
+
+67Rhythm and Technics
+
+research in phenomenology 47 (2017) 60–84
+
+resolve this without being shackled by etymological debates, here is the argu-ment that I want to put forward: rhythm gives form, it informs. In fact, this con-ceptualisation was already taken up by Jacques Garelli in Rhythmes et mondes: au revers de l’identité et de l’altérité. Garelli opposes individuation against beings (étants), because beings are always already individuated. Heidegger’s concern with beings and Being ignores the fundamental question of the indi-viduation of being. Hence the theory of Dasein always starts with something already given, with the world that we are in, and the time that we are. Garelli draws his source from his contemporary researchers on phenomenology, the late Merleau-Ponty, Marc Richir and Gilbert Simondon. Following Simondon, Garelli proposes an understanding of time and place as a process of individua-tion, which comes neither from the ontic nor the ontological, but rather what he calls the proto-ontic. Proto- comes from Greek derivatives of protos, mean-ing “first,” “foremost,” “earliest form of.” Proto-ontic is what is not yet individu-ated, it is what is a priori and out of time.18 The pre-individual, a term employed by Simondon to describe a status that is charged with potential and energy before individuation, is proto-ontic (not yet individuated). Individuation takes place when three conditions are met, namely material, energetic, and informa-tional, which are not yet individuated beings. Simondon advanced his theory since, in comparison with Heidegger, he was more engaged with contemporary quantum mechanics, while Heidegger takes contemporary physics as mere objectivist, reductive materialist thinking.
+
+What is meant by the individuation of rhythm and why is it necessary to do so? Because without making clear the difference between rhythms and forms, the concept of rhythm remains obscure. If we read from the major dictionar-ies, and encyclopaedias, they always refer to regular or periodic repetitions, as Benveniste has shown. Understanding rhythm in this way already presupposes that they are forms, that is to say, something already individuated. The theory of individuation can be simply grasped as an operation, in which what exists first is a pre-individual status that is charged with potentials and tensions; an individuation process is triggered when three conditions are met, namely material, energetic, and informational (generally non-immanent);19 the indi-viduation process continues until a metastable status is reached, meaning that tensions are resolved. For example, we can imagine a supersaturated solu-tion, and when it is heated up by whatever means (which can be accidental),
+
+18  J. Garelli, Rhythmes et Mondes, au revers de l’identité et de l’altérité (Grenoble: Jérôme Millon, 1991), 18.
+
+19  G. Simondon, L’individuation à la lumière des notions de forme et d’information (Grenoble: Jérôme Millon, 2005), 79.
+
+68 hui
+
+research in phenomenology 47 (2017) 60–84
+
+it starts to crystallize. In the process of crystallization, the tensions between ions are resolved through the formation of new bonds. At the same time it gives heat, which maintains the transductive operation in the liquid until the liquid is individuated and present as a metastable system. Metastable doesn’t mean that all potentials are exhausted, and the solution reaches equilibrium; on the contrary, it means that the individuated solution still carries the poten-tials from the pre-individual status, and when certain conditions are met, fur-ther individuations are possible. If we put individuation in simpler terms, we can say that individuation is the resolution of tensions, which consequently produces a structural transformation.20 Garelli further points out that the individuation of rhythm requires two dimensions, one being temporalization, and the second being what he calls worldification—mondification in French or Verweltlichung in German.
+
+This way of understanding individuation of rhythm in poetry also finds resonance in the work of Paul Valéry. I took this reading of Valéry from Henri Meschonnic’s Critique du rythme: anthropologie historique du langage. Valéry’s take on rhythm of poetry surprisingly resonates with Garelli’s speculation on the individuation of rhythm from the perspective of energy. Being very scepti-cal of the use of the word rhythm, Valéry says, “I have read or forged twenty definitions of rhythm, but I don’t adopt any of them.”21 Instead, Valéry derived his own definition, which I quote “rhythm—ensemble or succession of acts within a single transformation of energy—a single emission.”22 Valéry sees rhythm as the transformation of a system that is charged of energy, which gives action in succession or in ensemble. This status of being charged of potential is the pre-individual of a metastable system to come; we can read again “an action is put into rhythm when it depends uniquely on its start—and it con-serves certain initial relations.”23 Rhythm is not the metric that we lean when we want to write poetry. Rhythm is, as he defines it more precisely, the “move-ment more or less hidden by which what is not yet is already, or is fully in what it is—called rhythm.”24 Rhythm is always a process of hiding and expressing itself in the guise of forms, or specifically here metrics in poetry.
+
+20  Ibid., pp. 85–97.21  H. Meschonnic, Critique du Rhythme. Anthropologie historique du langage (Lagrasse:
+
+Verdier, 1982), 173.22  Meschonnic, Critique du Rhythme, cited in Valéry, Cahiers 1. Poétique et poésie (Paris,
+
+Gallimard, 1975), 1277.23  Ibid.24  Ibid., 1300.
+
+69Rhythm and Technics
+
+research in phenomenology 47 (2017) 60–84
+
+Based on this understanding of rhythm, Garelli criticizes that Heidegger for not posing the question of individuation, and privileges the individuated in his theory of Being. Firstly, in Das Ding (1951), Heidegger proposes an under-standing of the thing in terms of the four-fold (Geviert), namely the heaven, the earth, the mortal and the divine, but according to Garelli this four-fold consists in already individuated symbols, meaning that Heidegger starts with what is individuated to explain Being. Garelli instead takes on the theory of individuation and starts with the proto-ontic in order to sketch an ontogenesis instead of an ontology. Secondly, the “mondification” is the resolution of the problematic in order to become a metastable system, while Heidegger wants to privilege identity and unity.25 Citing Heidegger’s commentary on the rela-tion between the hand and the word (GA 54: §5), Garelli criticizes that “the relations between hand, word and beings in the world conceived by Heidegger are radically insufficient because the constitution of an energetic system as a structure charged with an energetic potential of being inscribed in the system, are totally ignored by the contemporary ontologists.” He continues:
+
+[D]uring the course of 1942–1943 on Parmenides, Heidegger says that there is only hand, when being appears unconcealed and when man com-ports to being in a unconcealing way. Like the word, the hand preserves the rapport (Bezug) of Being to man and by there the relation (Verhältnis) of human to being.26
+
+The original sentences in Heidegger’s writing refer to handwriting, and accord-ing to Heidegger, two decisions are already made, one is the relation [Bezug] of Being and of the word [das Wort] to man, and the other a decision about the comportment [Verhältnis] of man to beings. Garelli’s critique continues:
+
+25  Garelli, Rhythmes et Mondes, 384.26  Garelli, Rhythmes et Mondes, 308. In fact, the citation that Garelli believed to be from
+
+Heidegger’s Parmenides is only a summary, there is no exact sentence like this. The clos-est one is as follows: “In handwriting the relation [Bezug] of Being to man, namely the word, is inscribed in beings themselves. The origin and the way of dealing with writing is already in itself a decision about the relation [Bezug] of Being and of the words to man and consequently a decision about the comportment [Verhältnis] of man to beings and about the way both, man and thing, stand in unconcealedness or are withdrawn from it” GA 54: 125/85.
+
+70 hui
+
+research in phenomenology 47 (2017) 60–84
+
+[T]he processes of temporization and of worldification (Verweltlichung) examined in detail in the voiced and significant rhythms of texts and of works haven’t been taken into consideration. Now due to the lack of this questioning, Heidegger immediately comes to a symbolic interpreta-tion of works, founded on the theory of the four-fold, which ignores the energetic expansion of rhythm forming a metastable system in phase of individuation.
+
+I agree with Garelli’s analysis of rhythm and individuation, however I would like to diverge from this reading of Heidegger, and show instead that this notion of individuation, though never explicit in Heidegger’s writing, can be traced, and reconciled to guide us to address the question concerning rhythm and technics. Bezug and Verhältnis, which we have analysed before, are not indi-viduated entities. They are, as I will suggest in the next section, fundamental to what Heidegger calls a structure (Gefüge), which, as we have seen in Rimbaud Vivant defines the task of a poet. In saying this I mean to indicate that I would like to perform a reading of Heidegger that is compatible with Garelli’s and Simondon’s theory of individuation, and at the same time identify the position of technology in this constellation.
+
+3 Tension and Resonance
+
+Instead of focusing on Heidegger’s text Das Ding (1949/1951), we will look at his earlier writings, from the period between 1936 and 1946, where the ques-tion of tension is not ignored in the thought of Heidegger, and it is very rel-evant to a concept that is crucial for the understanding of the joint of Being (Fuge des Seyns). In the following passages, I mainly refer to Heidegger’s writ-ing between 1936 and 1949. In Zur Frage nach der Kunst (GA 74), we can see that tension stands at centre of the work of art. Heidegger didn’t use the word tension, but rather Auseinandersetzung, meaning dispute, argument, con-troversy. The question of act has to be approached from place, which pres-ents to us an Auseinandersetzung between Dasein and space. Heidegger says “obviously, it has an extraordinary relation to space, which is understood in a certain sense as an Auseinandersetzung with the space.”27 What exactly is
+
+27  Heidegger, GA 74: 191: “Dies liegt offenbar daran, daß sie eine ausgezeichnete Beziehung zum Raum hat, daß sie sich in gewisser Weise als eine Auseinandersetzung mit dem Raum versteht.”
+
+71Rhythm and Technics
+
+research in phenomenology 47 (2017) 60–84
+
+this Auseinandersetzung? We can contrast it immediately with Husserl’s Ineinander or Ineinandersetzung, since Auseinandersetzung is not unification but rather differentiation. In Technik und Kunst (GA 76, notes I and II), we read again this question concerning the Auseinandersetzung: “through technically established means, technical processes still do not and never will be a confron-tation between art and technics. What, after all, is Auseinandersetzung, who has been confronted and by whom?”28
+
+If the Auseinandersetzung is desirable and comparable to the tension in the pre-individual, then isn’t this the very possibility of rhythm, which differenti-ates the poetic and the non-poetic of a work? In the second note, Heidegger compared Kunst and Technik, asking “what and how is art in the age of Gestell?” He replies that art has to decide, artistically, so that “the answer lies in such art and in her alone—on her own—within the event (Ereignis).”29 Art is Werk als Gewirktes, as work which bring things to work, Heidegger continues, “but the other meaning is, work from bringing-forth stands in the unconcealment, letting-lie-before [Vor-liegen-lassen]”30 Now the question of art goes back to the question of language, or λόγος. The essence of λόγος, as Heidegger shows in his seminar on Heraclitus, is λέγειν: the letting-lie-together-before (das bei-sammen-vor-liegen-Lassen).
+
+If the Auseinandersetzung is the condition of possibility for the emergence of rhythm, then what is the emergence itself and to what does it entail? By the end of his commentary on Rimbaud, Heidegger refers to Trakl’s concept of the Geschwiegen as the revelation of the unknown. He says, “this silence is an other as the mere break off (Verstummen). Its no-more-speaking is a having said.”31 The silence, or stillness must be found not in the “not saying anything,” but in language, in λόγος itself. The notion of silence is very prominent in Heidegger’s interpretation of Hölderlin especially when a specific strophe of Hölderlin’s Brot und Wein is referred to:
+
+28  Heidegger, GA 76: 376: “[M]it technische gesteigerten Mitteln technische Vorgänge dar-stel-len ist noch keine und wird nie eine Auseinandersetzung der Kunst mit der Technik. Was heißt überhaupt Auseinandersetzung, wer begegnet wen.”
+
+29  Ibid., 378: [I]n solcher Kunst und in ihr allein die Antwort liegt—auf sie selber—inner-halb des (Ereignisses).”
+
+30  Ibid., 378: “[A]ber je die andere Bedeutung auch gemeint, doch Werk von Hervor-bringen in der Unverborgenheit stellen, Vor-liegen-lassen.”
+
+31  Heidegger, GA 40: 227: “[D]ieses schweigen ist ein Anderes als das bloße Verstummen. Sein Nicht-mehr-sprechen ist ein Gesagt haben.”
+
+72 hui
+
+research in phenomenology 47 (2017) 60–84
+
+Warum schweigen auch sie, die alten heiligen Theatre,Warum freuet sich den nicht der geweihlte Tanz?
+
+(Why are they silent too, the theatres, ancient and hallowed?Why not now does the dance celebrate, consecrate joy?)32
+
+Dancing is an action which is in rhythm with the music. The question now is: how then can the silence be understood as language as well as a rhythming? I want to go back to another text by Heidegger titled Das Wort (1958) dedi-cated to a reading of Stefan George’s poems. Heidegger arrives at a poem on stillness, and defines rhythm thus: “rhythm indeed doesn’t mean flux or flow. Rhythm is the quiet/quiescence, that joins (fügt) the movement of dancing and singing and so lets rest. Rhythm bestows the quiet.”33 He continues: “In the song we heard, the structure (Gefüge) shows itself when we pay attention to the joint [Fuge].34 Now rhythm is the individuation of the Fuge (a joint) as a Fügung (arrangement). What do Fügung and Fuge mean here? Poetry rhythms and brings an “in advance”—a silence, which shows the arrangement of the joining together of Being, an unconcealment as ἀλήθεια. As early as 1935, in the lecture Introduction to Metaphysics (GA 40), Heidegger had developed an interpretation of Sophocles’ Antigone that also attempted to resolve the opposition in philosophy between Parmenides and Heraclitus, a thinker of being over against a thinker of becoming. What is striking in this reading, as made explicit by Boehm, is that Heidegger wants to show that the “essence of metaphysics is identical with that of technics.”35 Heidegger points out that in the first cited strophe, the human is the τὸ δεινότατον, the uncanniest of the uncanny (das Unheimlichste des Unheimlichen). Δεινόν for the ancient Greeks, according to Heidegger, traverses the opposed con-frontations of Being (Aus-einander-setzungen des Seins). The tension becomes the fundamental element here. The uncanny consists of two senses: violence and the over-whelming or terrible. The first part is the violence (Gewalttätigkeit), or the act of violence (Gewalt-tätigkeit), which consists of the essence of human being as τέχνη. Human beings are Daseins that steps out of the limit, in so doing, Dasein is no longer at home, un-heimisch, therefore, un-heimlich.36 This violence
+
+32  F. Hölderlin, Poems and Fragments, trans. Michael Hamburger (London: Carcanet, 2004).33  Heidegger, GA 12: 217: “Rhythmus, ῥυθμός, heißt indes nicht Fluß und Fließen. Der
+
+Rhythmus ist das Ruhende, das die Be-wegung des Tanzens und Singens fügt und so in sich beruhen lässt. Der Rhythmus verleiht die Ruhe.”
+
+34  Ibid., “[I]m gehörten Lied zeigt sich die Fügung wen wir auf eine Fuge achten.”35  Boehm, Pensée et technique, 195.36  Heidegger, GA 13: 160.
+
+73Rhythm and Technics
+
+research in phenomenology 47 (2017) 60–84
+
+is associated with τέχνη, which is neither art nor technics, but knowledge. However, it is a knowledge that leads to an act (Tätigkeit):
+
+We translate this word as fittingness (Fug). Here we understand fittingness first in the sense of joint (Fuge) and structure (Gefüge); then as arrange-ment (Fügung), as the direction that the overwhelming (Überwältigende) gives to its sway; finally, as the enjoining structure (fügende Gefüge) which compels fitting-in (Einfügung) and compliance (sich fügen).37
+
+The play of the word Fuge, and its derivations like Gefüge, Fügung, fügende Gefüge, Verfügung, Einfügung, sich fügen, is totally lost in the English trans-lation. Δίκη, normally translated as justice in legal and moral terms, is for Heidegger, firstly a joint, a structure; then an arrangement directing to some-thing, and who is directing it? A glückliche Fügung in German is often trans-lated as a fortunate coincidence, but it is not a coincidence that is totally out of contingency but rather one that is made by exterior forces. And finally we see a compelling force, in which the compelled has to submit, to be part of the structure. Fug instead of Gerechtigkeit, is for Heidegger another attempt to open up the question of Being according to the ancient Greek, “iustitia has a wholly different ground of essence than that of δίκη, which arises from (west) ἀλήθεια.”38 Δίκε is the overwhelming (Überwältigend) fittingness. The confron-tation between the Gewaltätigkeit of τέχνη and the Übergewaltigende of Being is necessary, since “historical humanity’s Being-here means: Being-posited as the breach into which the excessive violence (Übergewalt) of Being breaks in its appearing, so that this breach itself shatters against Being.”39 In this the-atre of violence, the human’s assault on Being comes out of an urgency neces-sitated by Being, by the holding sway of φύσις.Why is there such urgency? It is because the excess of violence of Being becomes overwhelming and terrible ( furchtbar), that induces fear, anxiety. This Auseinandersetzung between τέχνη and δίκη, can be understood, according to Heidegger, as the being as a whole preached by Parmenides; and it perfectly goes with the teaching of Heraclitus “but it is necessary to keep in view confrontation, setting-apart-from-each-other (Aus-einander-setzung) essentially unfolding as bringing-together, and fittingness as the opposed . . . ”
+
+The translation of δίκη as Fug is taken up again in 1946 in the essay Der Spruch des Anaximander (GA 5), where Heidegger argues against the translation of
+
+37  Heidegger, GA 40: 183.38  C. Bambach, Thinking the Poetic Measure of Justice: Holderlin-Heidegger-Celan (New York:
+
+SUNY, 2013), 134; Heidegger, GA 52: 59.39  Bambach, Thinking the Poetic Measure of Justice, 174.
+
+74 hui
+
+research in phenomenology 47 (2017) 60–84
+
+Nietzsche and the classic scholar Hermann Diels’ translation of δίκη as Buße or Strafe (penalty), and proposes to translate δίκη as Fug, the ordering and enjoining order (fugend-fügende Fug);40 and ἀδικία as Un-Fug. The role of τέχνη as violence towards an opening is not mentioned in this text. We can probably speculate that since it was written right after the Second World War, when Heidegger was publically accused of being a Nazi, such a necessity for violence has to hide away. Towards the end of the essay on Anaximander Fragment, Heidegger poses the question “Is there any rescue? Rescue comes when and only when danger is. Danger is when Being itself advances to its far-thest extreme, and when the oblivion that issues from Being itself undergoes reversal.”41 Later the question of the danger is elaborated in the 1953 lecture The Question Concerning Technology, where the ancient concept of technics is totally overshadowed by modern technology. Modern technology consists of a gigantic force (the Wesung of being itself as Gestell) that sets itself away from the question of Being, and turns everything into standing reserve (Bestand), the essence of technology is now enframing (Gestell). This danger, for Heidegger, is the highest expression of the oblivion of Being, a sign indicating the end of western metaphysics, in which Being has totally withdrawn, and all beings are treated as standing reserves:
+
+[T]he approaching tide of technological revolution in the atomic age could so captivate, bewitch, dazzle, and beguile man that calculative thinking may someday come to be accepted and practiced as the only way of thinking.42
+
+However, the danger becomes a necessity for a new opening, as well as the con-dition of the rescuing force, as is seen in the poem of Hölderlin that is quoted by Heidegger: “but where danger is, grows also the saving power.” What is this saving power if it is not poetic dwelling and thinking? The last sentence of the Fragment of Anaximander replies with affirmation “then thinking must poetize on the riddle of Being. It brings the dawn of thought in to the neigh-borhood of what is for thinking.”43 It is clear that there is a certain relation between technics and poetry in this period of Heidegger’s thinking, however
+
+40  Heidegger, GA 5: 357/43.41  Ibid.42  H. Dreyfus, “Heidegger on Gaining a Free Relation to Technology,” in Heidegger
+
+Re-examined, Vol. 3: Art, Poetry, and Technology, eds. Hubert Dreyfus and Mark Wrathall (New York: Routledge, 2003), 165.
+
+43  Heidegger, GA 5: 373.
+
+75Rhythm and Technics
+
+research in phenomenology 47 (2017) 60–84
+
+is poetry something different from technology in the way that it is the only saving power? Or technics can also take part in the poetic thinking and con-stitute a new form of living, which is properly speaking, technological? Lets go back to the Introduction to Metaphysics, to find out if there is an original technicity that Heidegger wants to retrieve, which consists of the ἀ-λήθεια, a mere resonance is not enough, since rhythm must be “en avant”, resonance is only the beginning which initiates a rhythm to set a work into work, to set “the earth to earth”. A cosmic order of δίκη is imposed while a human intervention meets head-on, in the reciprocity of over-violence and violence; the two forces are synthesized, a bringing-together of thinking and being, as indicated in the poem of Parmenides. What is synthesized is not a third coming out of dialec-tics or the overturning of the δίκη,44 but rather revelation of being-together-ness, where the ἀδικία (Un-fug) has to recognize the δίκη (Fug). What is present in this conflict is a rhythm that doesn’t produce resonances, but conflicts, that bring forth an infinite revelation of the Da through violence. This confrontation is sometimes also described as the conflict between world and earth, in which Heidegger associates it to the origin of the work of art.
+
+In the Beiträge zur Philosophie (GA 65), the question of rhythm in rela-tion to the Fuge becomes transparent. Resonance (Anklang) and interplay (Zuspiel) are the fundamental elements for any possible Ereignis. Heidegger proposes to understand what the book aims to elaborate, the joint or junc-ture of the incipient thinking (Fuge des anfängliches Denkens). Heidegger sketches a threefold movement concerning this task, as listed below. Here we see again the sequence, Gefüge—Verfügung—Fügung, which prepares Da-sein for the compliance (sich fügen). Heidegger names six junctures, resonance (Anklang), interplay (Zuspiel), leap (Sprung), founding (Gründung), future ones (Zukünftigen) and the last god (Der letzte Gott), and one can find a hidden interweaving among them.45 Resonance and interplay are the “soil and field” that prepares for the takeoff (Absprung) to the leap, which opens the conceal-ment to prepare for Dasein’s grounding. It is sensible to understand this leap in terms of what Garelli and Simondon call the quantum leap that stands as the threshold leading to a transformation of structure within the individuating
+
+44  Bambach, Thinking the Poetic Measure of Justice, 162: “Dike is the name for this temporal ordering. Beings rebel, however, against this ordering and cling to their own “sheer per-durance” opposing the jointure of being itself. And yet this ontic rebellion against the ontological order of dike, one that sets things “out of joint” (aus den Fugen) in a way that renders beings adikias does not constitute an overturning of dike. On the contrary, Dike holds sway in and through whatever is adikias.”
+
+45  Heidegger, GA 65: 82.
+
+76 hui
+
+research in phenomenology 47 (2017) 60–84
+
+being as well as with its milieux. The resonance and interplay are what pre-pare for this, until the tensions or the intensity of Auseinandersetzung arrives to certain point. In so doing, a new structure is anticipated, as Heidegger says, the junctures stand in a unity that honors or distinguishes the future ones. The call of the event places Dasein standing before the hint of the last god, the mysterious force. Towards the end of the Beiträge, Heidegger writes “the jointure—the arrangement that complies to the call, grounds Da-sein.”46 And he continues:
+
+1. In the construct there is no loosening of the rigor of the structure [Gefüge], just as if at issue—and this is always at issue in philosophy—were the impossible: to apprehend the truth of Being in the completely developed fullness of its grounded essence.
+
+2. Here is only allowed the order [Verfügung] of one way an individual can traverse while renouncing the possibility of overseeing other, perhaps has more essential, ways.
+
+3. The attempt must clearly realize that both, the structure [Gefüge], and order [Verfügung], remain an arrangement [Fügung] of Being itself, of the hinting and withdrawing of its truth, some thing not foreseeable.47
+
+We can see that, what Heidegger is doing in the Beiträge (1936–1938), is very consonant with his Introduction to Metaphysics (1936), where Fuge becomes the essential object of reflection, and the violence described in the latter becomes part of the event of appropriation. In the Introduction to Metaphysics, Heidegger claims that the τέχνη in question is not art (Kunst), neither skill nor technology in modern sense, but rather knowledge (Wissen).48 This emphasis on knowledge, strategically allows him to bring together ἀλήθεια with λέγειν and λόγος. However, we encounter an ambiguity concerning the meaning of act that Heidegger also emphasizes in Gewalt-tätigkeit, namely: in what sense can there be an act without act, but only language? The only possibility that one can find in Heidegger’s thought is Gelassenheit, to let beings be as they are to prepare for the opening of the mysterious. Gelassenheit is both thinking and action, which situates itself between doing and not-doing, which is “non-doing”
+
+46  Ibid.47  Heidegger, GA 65: 81. The English translation is a modified version based on the two exist-
+
+ing translations from Parvis Emad and Kenneth Maly (Bloomington: Indiana University Press, 1999) and Richard Rojcewicz and Daniela Vallega-Neu (Bloomington: Indiana University Press, 2012).
+
+48  Heidegger, GA 13: 122.
+
+77Rhythm and Technics
+
+research in phenomenology 47 (2017) 60–84
+
+and non-willing (or even the “highest doing”). However in this non-doing, the Gewalt-tätigkeit disappears, since there is neither Gewalt, nor Tätigkeit. When the philosopher Hubert Dreyfus gives Heidegger’s example of the Gelassenheit in contemporary technologies, he refers to the Japanese culture:
+
+Again we can turn to Japan. In contemporary Japan a traditional, non-technological understanding of being still exists alongside the most advanced high-tech production and consumption. The TV set and the household gods share the same shelf-the styrofoam cup co-exists with the porcelain one. We can thus see that one can have technology without the technological understanding of being, so it be comes clear that the technological understanding of being can be dissociated from techno-logical devices.49
+
+As someone from the East, I am not sure if this is really the case, consider-ing that the “mysterious force” of our tradition becomes invisible when con-fronting consumerism—it is invisible next to the TV set; and the fact that the younger generation is totally absorbed in technical objects and engulfed by the acceleration of digital technologies. Instead, a new strategy has to be found. At bottom, the Gelassenheit is a strategy to deal with technical objects, but it is more than anything else a strategy for Heidegger to deal with the issue by returning to language, which is his domain of expertise. It is a “nontechnologi-cal or nonimpositional attitude,”50 and first of a non-willing, if not an escape from technology. Language embodies the history of the human’s relation to Being. Modern technology for Heidegger is the progress that is in the process of distancing the European tradition from its Greek origin, the question of Being. The transformation of the Greek meaning of Being and its relation to language from the Roman period on until today is the history of the forgetting of being. The emergence of informatics for Heidegger aggravates this problem by marginalizing the possibility of language through formal logic and math-ematization. Towards the end of his article Rimbaud Vivant, Heidegger poses
+
+49  Dreyfus, “Heidegger on Gaining a Free Relation to Technology,” 167.50  R. Rojcewicz, The Gods and Technology: A Reading of Heidegger (Albany: SUNY, 2006), 151:
+
+“For Heidegger, will involve distancing our- selves from technology, detaching ourselves from it, not by opposing it (which is not a detachment) but precisely by extricating our-selves from a passionate, uncompromising, antithetical attitude toward it. That is to say, if we are to be free, we will need to find (or, rather, we will need to be given or be shown the way to) a nontechnological or nonimpositional attitude toward the very attitude of imposition.”
+
+78 hui
+
+research in phenomenology 47 (2017) 60–84
+
+himself the question, “will the impending destruction of language through linguistics and informatics undermine not only the precedence of poetry, but also the very possibility of it?”51 Heidegger continues “Rimbaud remains vital if we ask ourselves this question, if those who compose poetry and contemplate remain concerned about the necessity of ‘making themselves into seers for the unknown.’ . . . In what has been said in the poetry of Arthur Rimbaud, do we hear his stillness (Geschwiegenes) with sufficient clarity?”52
+
+4 Rhythm and Technics
+
+This return to Rimbaud is a return to the question of rhythm, to setting being to being. Heidegger’s novelty lies in seeing the possibility of rhythm leading to silence—a replacement of the word violence, in which Being reveals itself in the conjunction of beings, the Lichtung of Being. Let’s cite again Heidegger’s definition of rhythm borrowed from Archilocus, “to realize, however, that a kind of relation holds the human.” Here poetry prepares the Gefüge; the Verhältnis set into work by rhythm meets the fügende Gefüge, a compelling force that holds. It brings us a constellation of relations that hold us back and let the silence emerge. In the poem L’éternité of Rimbaud cited by Garelli to confront Heidegger’s four-fold, we can see this silence and the joint as the δίκη proposed by Heidegger.
+
+Elle est retrouvée.Quoi ?—L’Eternité.C’est la mer alléeAvec le soleil.
+
+(It has been found again.What?—Eternity.It is the sea fled awayWith the sun.)
+
+51  Heidegger, GA 13: 227 “[O]der wird mit der drohenden Zerstörung der Sprache durch Linguistik und Informatik nicht nur ein Vorrang der Dichtung, sondern diese selbst in ihrer Möglichkeit untergraben?”.
+
+52  Ibid., 227; translation in Rimbaud Complete: Poetry and Prose, trans. Wyatt Mason (New York: Modern Library, 2003), 369.
+
+79Rhythm and Technics
+
+research in phenomenology 47 (2017) 60–84
+
+The l’ éternité retrouvée presents a scene where the ocean fled away with sun-shine. In the course of action, looking for, something extraordinary tranquil is given to us, as an answer. Poetry is what rhythms towards this Unknown that is in front of us, beyond all the rules and human justice. It is also what forces Dasein to submit itself to a moving structure, aller avec le soleil. In the Lichtung or Ereignis Heidegger might be said to understand the revelation set by rhythm, in which the historical Dasein identifies not only with human history, but also with the history of Being. We are not able to quote Heidegger’s analysis of Rimbaud’s poetry, since he never wrote one. In the rhythm of poetry, we can find a transformation, which opens a world that presents us with both a new structure and force. Can one understand it in terms of violence without physi-cal aggression? To elaborate on this, we need to go back to Heidegger’s analysis of the poem of Stefan George in Das Wort, where the last strophe attracted most of the attentions of our philosopher:
+
+so lernt ich traurig den versichtKein ding sei wo das wort gebricht
+
+(So I renounced and sadly see:Where word breaks off no thing may be).
+
+The poet is sad to learn this renouncement: nothing is there where word breaks. What does he mean by this? Does it simply mean that when the direct correspondence between the word and the thing breaks, the thing no longer exists? But Heidegger refused this immediately: “no way, it is not this simple”. And why the poet is sad to learn about this? Gebricht, comes from gebrechen, meaning to lack something; Heidegger says it means to “miss” (fehlen). And if the word misses the thing, is there still any relation to be held? Or is there no longer any Ver-Hältnis? The poet is sad, because it becomes a rule that the word must govern the thing, the word grounds the thing. This relation between semantics and things is at the centre of the formal logic that is also λόγος. But Heidegger wants to show another meaning of λόγος, not in rules that condi-tion reason, but rather in λέγειν. Λέγειν, to lay out/before and gather, didn’t carry the same meaning as it does today, but had its origin in saying. When the word misses the thing, it is also the moment of opening, where the word no longer governs the thing; the word lets the thing as thing (das Wort ein Ding als Ding sein läßt). Heidegger refers to the old German word bedingen that was also used by Goethe. If the relation between word and thing in its logical sense is Bedingung, where the words ground things, then in terms of Bedingnis, the word doesn’t ground the thing, the word lets the thing be present as thing. If
+
+80 hui
+
+research in phenomenology 47 (2017) 60–84
+
+we now understand “missing” as the information that triggers a transforma-tion to come, then in this transformation we observe that poetry rhythms by breaking the most ordinary and familiar habit, liberating the “suppression of the uncanny” as Schelling may put it.53 In ancient Greece, the rhythm of lan-guage and the rhythm of music were separated; the only overlap is in the verses of the poems, where the Dasein of the Hellenic epoch sang them. Poetry will be en avant, since rhythm as the coordination between words and things no longer holds; poetry has to rhythm in a different way, when we want to catch it, it is always ahead, and we end up in the silence, in the Uncanny. Individuation of rhythm starts with the production of joints (Fugen), which gives structures (Fügungen) modulated by the vital poet, in which one has to insert (einfügen) and to submit (sich fügen).
+
+Can modern technology take the role of poetry that reveals the uncanny, and prepare for Fuge—Fügung—Einfugung? Heidegger posed this question to poets in Rimbaud Vivant, “will the saying of the coming poet build upon the structure (Gefüge) of this relation, and in so doing prepare men a new dwelling upon the earth?”54 It seems that this question is also valid for modern tech-nology, however the philosopher wasn’t able to give a clear answer since his working domain is language. In 1969, in an interview with Richard Wisser, a program commissioned by the German TV ZDF in honor of Heidegger’s 80th birthday, in response to a question concerning the atomic bomb and the dan-ger of modern technology, Heidegger says:
+
+I see in technology, namely in its essence, that human stands under a power (Macht), which changes him, and in face of which he is no longer free—something announces itself, namely a relation (Bezug) of Being to the human—and that one day the concealment of this relation, that is concealed in the essence of technology, may come to light. Whether this will happen, I don’t know! However I see in the essence of technology the first emergence of a very deep mystery (Geheimnis) which I call “event” (Ereignis)—from what you concluded, there can be no talk of a resis-tance or a condemnation of technology, but rather getting to understand the essence of technology and the technological world. According to me,
+
+53  I make reference to Freud’s The Uncanny, in which he refers to Schelling’s Philosophie der Mythologie (1835), in which Schelling considers Homer’s poem as the suppression of the uncanny of mythology, see A. Vidler, The Architectural Uncanny, (Cambridge: MIT Press, 1994), 26–27.
+
+54  Heidegger, GA 13: 227: “[W]ird das Sagen des kommenden Dichters am Gefüge dieses Verhältnisses bauen und so dem menschen den neuen Aufenthalt auf der Erde bereiten?”.
+
+81Rhythm and Technics
+
+research in phenomenology 47 (2017) 60–84
+
+this cannot happen, as long as one still philosophically lingers in the subject-object relation. This means: we cannot understand the essence of technology from a Marxist perspective.55
+
+Under what condition this event can happen is unknown. However, the Unknown grants the authority to poetry and philosophy, without which all will be reduced to science, or as in Marx’s critique named in the last sen-tence—political economy. Compared with poetry, technology is more power-ful in terms of modulating rhythms, however this also hides a “highest danger” in Heidegger’s sense. The French anthropologist and palaeontologist André Leroi-Gourhan dedicated the second half of his Speech and Gesture to the question of rhythm. Leroi-Gourhan sees rhythm as a force that gives us con-cepts such as time and space, as well as producing certain gestures and habits in human beings. The technical rhythm, according to Leroi-Gourhan, trans-forms “untamed nature into instruments of humanization.”56 This technical rhythm however is transformed in the age of automation; it becomes a force of synchronisation, which gradually removes any freedom and imagination. He laments, “individuals today are imbued with and conditioned by a rhythmicity that has reached a stage of almost total mechanicity (as opposed to humaniza-tion). The crisis of figuralism is the corollary of the dominance of machinism.”57 Leroi-Gourhan, like his contemporary, Martin Heidegger, sees the danger of modern technology, however from an archaeological and anthropological per-spective, while Heidegger from an onto-historical perspective. This view on the danger of technical rhythm, is also shared by Gilbert Simondon, when he wrote in On the Mode of Existence of Technical Objects:
+
+With the passage to industrial motoricity, the situation was profoundly changed. . . . The worker was placed in the presence of sections of net-works measured out by the machine’s rhythm, of series of movements that left the subject on the outside, a complete “technical deculturation” occurred, conjointly with the loss of belonging to a group with a clearly defined personality and on a comfortable scale.58
+
+55  Heidegger and Wisser, “Martin Heidegger im Gespräch mit Richard Wisser.” In Martin Heidegger in Gespräch, ed. Günther Neske (Pfullingen: Neske, 1988), 25.
+
+56  A. Leroi-Gourhan, Speech and Gesture (Cambridge: MIT Press, 1993), 310.57  Ibid., 311.58  See B. Stiegler, Technics and Time, vol. 2, Disorientation (Stanford: Stanford University
+
+Press, 2009), 75; and G. Simondon, Du mode d’existence des objets techniques, 59.
+
+82 hui
+
+research in phenomenology 47 (2017) 60–84
+
+In this description of Simondon’s, we can see that in fact the rhythm thus described is only pure repetition of patterns, such as we can still see in the iPhone factory Foxcom in China. But it is also this new possibility of becoming closely related to the technical tendency and the contingency that accompa-nies it, that demands a reassessment of rhythm and technics, when one consid-ers that the technical program is no longer able to bring forth a diversification of rhythm, and hence the resonance of the organic and the inorganic ceases to be humanization but automatization.59 In this shift, observed Leroi-Gourhan and others, the rhythmic question of technics, deviates from the metaphysical to the political and pragmatic.
+
+The saving power of modern technology doesn’t seem to rise from certain discourses on ubiquitous computing or smart objects, which aim to modulate an environment that is totally automatic and ready-to-hand. We can probably follow Schelling by calling them a “suppression of the uncanny.” If Heidegger’s imagination of the great mysteriousness (Geheimnis) of modern technology, and its possibility of unconcealment can be pursued, then the question of rhythm will be the entry point, not in order to turn technology into poetry, as it will no longer be ποίησις in the Greek sense, but in its capacity and flex-ibility to prepare for a Fügung, an admission to the unknown brought by its own uncanny. Looking at the question of rhythm from the point of view of Simondon’s individuation, and attempting to reconstruct such a reading in Heidegger’s work after the Kehre, we have aimed to show that the individua-tion of rhythm is crucial to think of a new technological program and probably a new essence. To think of this, one has to admit a simple fact that technol-ogy cannot think in terms of Gelassenheit, for then it wouldn’t be technology anymore but something else—an act of self-destruction. And for technology to continue, it has to think in terms of rhythm as a possibility for itself, for any possible mysterious Being and for Dasein. What Heidegger proposed is not a solution, but rather an invitation, as he invited the poets in Rimbaud Vivant; to paraphrase the invitation for technologists: will the doing of the coming technicians build upon the structure (Gefüge) of this relation, and in so doing prepare men a new dwelling upon the earth?
+
+59  Here, however, by humanization Leroi-Gourhan doesn’t mean a humanism or an anthro-pocentrism, but evolution as the process of exteriorization of memory and organs, through which a new relation between human and technics has to be produced.
+
+83Rhythm and Technics
+
+research in phenomenology 47 (2017) 60–84
+
+References
+
+Bambach, Charles. 2013. Thinking the Poetic Measure of Justice Hölderlin-Heidegger-Celan. New York: SUNY Press.
+
+Beaufret, Jean. 1988. “In Frankreich.” In Martin Heidegger in Gespräch. Edited by Günther Neske and Emil Kettering. Pfullingen: Neske.
+
+Benveniste, Emile. 1973. Problems in General Linguistics. Miami: University of Miami Press.
+
+Boehm, Rudolf. 1960. “Pensée et technique. Notes préliminaires pour une question touchant la problématique heideggerienne.” Revue Internationale de Philosophie 52 (2): 194–220.
+
+Dreyfus, Hubert. 2003. “Heidegger on Gaining a Free Relation to Technology.” In Hei-degger Reexamined, Vol. 3: Art, Poetry, and Technology. Edited by Hubert Dreyfus and Mark Wrathall. New York: Routledge.
+
+Fortier, Anne-Marie. 1999. René Char et la métaphore Rimbaud. Montréal: Les presses de l’université de Montréal.
+
+Garelli, Jacques. 1991. Rhythmes et Mondes, au revers de l’identité et de l’altérité. Greno-ble: Jérôme Millon.
+
+Gosetti-Ferencei, Jennifer A. 1994. Heidegger, Hölderlin, and the Subject of Poetic Lan-guage: Toward a New Poetics of Dasein. New York: Fordham University Press.
+
+Heidegger, Martin. 1969. Discourse on Thinking. Trans. J.M. Anderson and E. Hans Freund. New York: Harper.
+
+Heidegger, Martin. 1977. Question Concerning Technology and other Essays. Translated by William Lovitt. New York: Garland.
+
+Heidegger, Martin. 1977. GA 5. Holzwege (1935–1946). Frankfurt am Main: Klostermann.Heidegger, Martin. 1982. GA 52. Hölderlins Hymne “Andenken” (Winter semester
+
+1941/42). Frankfurt am Main: Klostermann.Heidegger, Martin. 1982. GA 54. Parmenides (Winter semester 1942/43). Frankfurt am
+
+Main: Klostermann.Heidegger, Martin. 1983. GA 40. Einführung in die Metaphysik (Summer semester 1935)
+
+Frankfurt am Main: Klostermann.Heidegger, Martin. 1983. GA 13. Aus der Erfahrung des Denkens (1910–1976). Frankfurt
+
+am Main: Klostermann.Heidegger, Martin. 1984. GA 53. Hölderlins Hymne “Der Ister” (Summer semester 1942).
+
+Frankfurt am Main: Klostermann.Heidegger, Martin. 1985. GA 12. Unterwegs zur Sprache (1950–1959). Frankfurt am Main:
+
+Klostermann.Heidegger, Martin. 1985. Early Greek Thinking. Translated by David Farrell Krell and
+
+Frank A. Capuzzi. San Francisco: Harper.
+
+84 hui
+
+research in phenomenology 47 (2017) 60–84
+
+Heidegger, Martin. 1989. GA 65. Beiträge zur Philosophie (Vom Ereignis) (1936–1938). Frankfurt am Main: Klostermann.
+
+Heidegger, Martin. 1992. Parmenides. Translated by André Schuwer and Richard Rojcewicz. Indianapolis: Indiana University Press.
+
+Heidegger, Martin. 2001. Poetry, Language, Thought. Translated by Albert Hofstadter. San Francisco: Harper.
+
+Heidegger, Martin. 2009. GA 76. Leitgedanken zur Entstehung der Metaphysik, der neuzeitlichen Wissenschaft und der modernen Technik. Frankfurt am Main: Klostermann
+
+Heidegger, Martin. 2010. GA 74. Zum Wesen der Sprache und Zur Frage nach der Kunst. Frankfurt am Main: Klostermann.
+
+Heidegger, Martin and Wisser, Richard. 1988. “Martin Heidegger im Gespräch mit Richard Wisser.” In Martin Heidegger in Gespräch. Edited by Günther Neske and Emil Kettering. Pfullingen: Neske.
+
+Leroi-Gourhan, André. 1993. Speech and Gesture. Cambridge: MIT Press.Meschonnic, Henri. 1982. Critique du Rhythme. Anthropologie historique du langage.
+
+Lagrasse: Verdier.Rimbaud, Arthur. 2003. Rimbaud Complete: Poetry and Prose. Translated and edited by
+
+Wyatt Mason. New York: Modern Library.Simondon, Gilbert. 1989. Du mode d’existence des objets techniques. Paris: Aubier.Simondon, Gilbert. 2005. L’individuation à la lumière des notions de forme et
+
+d’information. Grenoble: Jérôme Millon.Stiegler, Bernard. Technics and Time, Volume 2, Disorientation. Stanford: Stanford Uni-
+
+versity Press.Valéry, Paul. 1975. Cahiers 1. Poétique et poésie. Paris, Gallimard.Vidler, Anthony. 1994. The Architectural Uncanny. Cambridge: MIT Press.
+No value selected.
+
