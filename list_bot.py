@@ -19,10 +19,10 @@ if __name__ == '__main__':
 
     secs = 180
 
-
-    tweetlist = ["semibot",
-                "",
-                ""]
+semibot
+    tweetlist = ["tuit de prueba 1",
+                "tuit de prueba 2",
+                "tuit de prueba 3"]
 
     
     for tweet in tweetlist:
