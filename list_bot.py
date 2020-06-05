@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     secs = 180
 
-semibot
+
     tweetlist = ["tuit de prueba 1",
                 "tuit de prueba 2",
                 "tuit de prueba 3"]
