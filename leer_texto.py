@@ -35,7 +35,7 @@ def search_sentence(text):
 
 
 	#mientras tengamos un status largo o muy corto
-	while not (5 < status < 125)
+	while not (5 < status < 125):
 	#genera un número aleatorio
 		index = randint(0, len(text))
 	#determina índices de la oración
