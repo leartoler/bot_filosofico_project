@@ -19,7 +19,7 @@ def extract_status(path=None):
 
     	#busca libro que leer y oración 
     	try: 
-    		with open(path, 'r', encoding='utf-8', errors="surrogateescape") as book:
+    		with open('./texto.txt', 'r', encoding='utf-8', errors="surrogateescape") as book:
     			text = book.read()
 
     		#si la lee exitosamente el libro, busca una oración
@@ -35,7 +35,7 @@ def search_sentence(text):
 
 
 	#mientras tengamos un status largo o muy corto
-	while not (5 < status < 125)
+	while not (5 < status < 125):
 	#genera un número aleatorio
 		index = randint(0, len(text))
 	#determina índices de la oración
