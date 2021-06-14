@@ -1,5 +1,5 @@
 import tweepy, re, time
-from access import *
+from access_tfbot import *
 from random import randint
 
 # Setup API:
@@ -12,42 +12,42 @@ def twitter_setup():
     api = tweepy.API(auth)
     return api
 
-#función para extraer status 
+#funcion para extraer status 
 def extract_status(path=None):
     	if not path:
     		return "No hay libro"
 
-    	#busca libro que leer y oración 
+    	#busca libro que leer y oracion 
     	try: 
     		with open('./texto.txt', 'r', encoding='utf-8', errors="surrogateescape") as book:
     			text = book.read()
 
-    		#si la lee exitosamente el libro, busca una oración
+    		#si la lee exitosamente el libro, busca una oracion
     		if text:
     			return search_sentence(text)
 
     	except:
     		return "libro no encontrado"
 
-#función para determinar búsqueda de oración en el libro
+#funcion para determinar busqueda de oracion en el libro
 def search_sentence(text): 
 	status = 200
 
 
 	#mientras tengamos un status largo o muy corto
 	while not (5 < status < 125):
-	#genera un número aleatorio
+	#genera un numero aleatorio
 		index = randint(0, len(text))
-	#determina índices de la oración
+	#determina indices de la oracion
 		init_index = text[index:].find(".") + 2 + index
 		last_index = text[init_index:].find(".") + 2 + index
 		status = len(text[init_index:last_index])
-	#remplaza saltos de línea con espacios
+	#remplaza saltos de linea con espacios
 	sentence = text[init_index:last_index]
 	sentence = re.sub("\n", " ", sentence)
 	return sentence
 
-	if __name__ == '__main__':
+if __name__ == '__main__':
 		#configurar API de twitter
 		bot = twitter_setup()
 
@@ -59,10 +59,10 @@ def search_sentence(text):
 			status = extract_status("texto.txt")
 
 			try:
-            	bot.update_status(tweet)
-            	print("Tweet enviado!")
-        	except tweepy.TweepError as e:
-            	print(e.reason)
+				bot.update_status(status)
+				print("Tweet enviado!")
+			except tweepy.TweepError as e:
+				print(e.reason)
 
-      		time.sleep(segs)
+		time.sleep(segs)
 

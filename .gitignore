@@ -6,4 +6,6 @@ __pycache__/
 /auth
 local_settings.py
 access.py
+access_tfbot.py
+access_xoor.py
 keys.py

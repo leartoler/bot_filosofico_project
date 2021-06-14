@@ -1,6 +1,6 @@
 import tweepy, time
-from access import *
-from random import randint
+from access_xoor import *
+#from random import randint
 
 # Setup API:
 def twitter_setup():
@@ -20,7 +20,9 @@ if __name__ == '__main__':
     secs = 180
 
 
-    tweetlist = ["a"]
+    tweetlist = ["to the mn",
+                 "f(x)",
+                 "ab"]
 
     
     for tweet in tweetlist:
@@ -36,4 +38,4 @@ if __name__ == '__main__':
 
 
         # Wait till next sentence extraction:
-        time.sleep(secs)
+    time.sleep(secs)
