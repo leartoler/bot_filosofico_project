@@ -4,47 +4,47 @@ from random import randint
 
 # Setup API:
 def twitter_setup():
-    # Authenticate and access using keys:
-    auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-    auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
+	# Authenticate and access using keys:
+	auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+	auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 
-    # Return API access:
-    api = tweepy.API(auth)
-    return api
+	# Return API access:
+	api = tweepy.API(auth)
+	return api
 
 #funcion para extraer status 
 def extract_status(path=None):
-    	if not path:
-    		return "No hay libro"
+		if not path:
+			return "No hay libro"
 
-    	#busca libro que leer y oracion 
-    	try: 
-    		with open('./texto.txt', 'r', encoding='utf-8', errors="surrogateescape") as book:
-    			text = book.read()
+		#busca libro que leer y oracion 
+		try: 
+			with open(path, 'r', encoding='utf-8', errors="surrogateescape") as book:
+				text = book.read()
 
-    		#si la lee exitosamente el libro, busca una oracion
-    		if text:
-    			return search_sentence(text)
+			#si la lee exitosamente el libro, busca una oracion
+			if text:
+				return search_sentence(text)
 
-    	except:
-    		return "libro no encontrado"
+		except:
+			return "libro no encontrado"
 
 #funcion para determinar busqueda de oracion en el libro
 def search_sentence(text): 
-	status = 200
+	status = 250
 
 
 	#mientras tengamos un status largo o muy corto
-	while not (5 < status < 125):
+	while not (5 < status < 225):
 	#genera un numero aleatorio
 		index = randint(0, len(text))
 	#determina indices de la oracion
 		init_index = text[index:].find(".") + 2 + index
 		last_index = text[init_index:].find(".") + 2 + index
 		status = len(text[init_index:last_index])
-	#remplaza saltos de linea con espacios
+	#remplaza cualquier caracter que no sea palabra y numero de linea con espacios
 	sentence = text[init_index:last_index]
-	sentence = re.sub("\n", " ", sentence)
+	sentence = re.sub("\W\d", " ", sentence)
 	return sentence
 
 if __name__ == '__main__':
@@ -52,17 +52,27 @@ if __name__ == '__main__':
 		bot = twitter_setup()
 
 		#delay
-		segs = 3 
+		segs = 3
+		#switch
+		switch= False
+		#busqueda
+		setWords = bot.search(q="technology", count=1)
+		count = 0
+		status = extract_status("texto.txt")
 
-		#control de flujo para postear tuits
-		while True: 
-			status = extract_status("texto.txt")
-
-			try:
-				bot.update_status(status)
-				print("Tweet enviado!")
-			except tweepy.TweepError as e:
-				print(e.reason)
+		for tweet in setWords:
+					print(f"{count}, {tweet.text}")
+					count += 1
+					switch = True
+			#control de flujo para postear tuits
+					while switch: 
+	
+						try:
+							bot.update_status(status)
+							print(f"{status} \n Tweet enviado!")
+							switch = False
+						except tweepy.TweepError as e:
+							print(e.reason)
 
 		time.sleep(segs)
 
