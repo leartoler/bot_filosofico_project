@@ -59,7 +59,7 @@ if __name__ == '__main__':
 		setWords = bot.search(q="technology", count=1)
 		count = 0
 		status = extract_status("texto.txt")
-
+		
 		for tweet in setWords:
 					print(f"{count}, {tweet.text}")
 					count += 1
