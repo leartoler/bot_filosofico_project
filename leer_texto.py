@@ -56,7 +56,7 @@ if __name__ == '__main__':
 		#switch
 		switch= False
 		#busqueda
-		setWords = bot.search(q="technology", count=1)
+		setWords = bot.search(q="technology is going to", count=2)
 		count = 0
 		status = extract_status("texto.txt")
 		
@@ -68,7 +68,7 @@ if __name__ == '__main__':
 					while switch: 
 	
 						try:
-							bot.update_status(status)
+							bot.update_status(status +" " + f"https://twitter.com/{tweet.user.screen_name}/status/{tweet.id}")
 							print(f"{status} \n Tweet enviado!")
 							switch = False
 						except tweepy.TweepError as e:
