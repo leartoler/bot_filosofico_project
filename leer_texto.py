@@ -1,4 +1,4 @@
-import tweepy, re, time
+import tweepy, re, time, nltk
 from access_tfbot import *
 from random import randint
 
@@ -50,29 +50,46 @@ def search_sentence(text):
 if __name__ == '__main__':
 		#configurar API de twitter
 		bot = twitter_setup()
-
+        #definimos conjunto de palabras a buscar
+        #enviamos el indice aleatorio de un elemento del conjunto definido arriba
+		setWords = ["technology", "tech", "technical", "information", "tecnologia", "tecnica", "tecnologico", "informacion"]
+		randomWord = randint(0,len(setWords)-1)
+		randomWord = setWords[randomWord]
 		#delay
-		segs = 3
+		segs = 1
 		#switch
 		switch= False
-		#busqueda
-		setWords = bot.search(q="technology is going to", count=2)
+		#buscamos una palabra aleatoria definida anteriormente e iteramos este proceso n veces en count
+        #devolvemos un array con los tweets encontrados
+		searchWord = bot.search(q=randomWord, count=1)
 		count = 0
 		status = extract_status("texto.txt")
-		
-		for tweet in setWords:
-					print(f"{count}, {tweet.text}")
-					count += 1
-					switch = True
-			#control de flujo para postear tuits
-					while switch: 
+		#iteramos sobre el array de busqueda
+        #definimos un patron con regex para tokenizar el tweet
+        #imprimimos el numero de iteracion junto con el texto del tweet y el conjunto ordenado de los tokens del tweet
+		for tweet in searchWord:
+					tweet = tweet.text
+					pattern = r'''(?x)                 # set flag to allow verbose regexps
+              (?:[A-Z]\.)+         # abbreviations, e.g. U.S.A.
+              | \w+(?:-\w+)*       # words with optional internal hyphens
+              | \$?\d+(?:\.\d+)?%? # currency and percentages, e.g. $12.40, 82%
+              | \.\.\.             # ellipsis
+              | [][.,;"'?():-_`]   # these are separate tokens; includes ], [
+'''
+					tokens = nltk.regexp_tokenize(tweet, pattern)
+					print(f"{count}, {tweet}")
+					print(sorted(set(tokens)))
+#					count += 1
+#					switch = True
+#			#control de flujo para postear tuits
+#					while switch:
 	
-						try:
-							bot.update_status(status +" " + f"https://twitter.com/{tweet.user.screen_name}/status/{tweet.id}")
-							print(f"{status} \n Tweet enviado!")
-							switch = False
-						except tweepy.TweepError as e:
-							print(e.reason)
+#						try:
+#							bot.update_status(status +" " + f"https://twitter.com/{tweet.user.screen_name}/status/{tweet.id}")
+#							print(f"{status} \n Tweet enviado!")
+#							switch = False
+#						except tweepy.TweepError as e:
+# 							print(e.reason)
 
 		time.sleep(segs)
 
