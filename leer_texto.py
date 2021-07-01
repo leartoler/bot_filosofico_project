@@ -66,7 +66,7 @@ if __name__ == '__main__':
 		status = extract_status("texto.txt")
 		#iteramos sobre el array de busqueda
         #definimos un patron con regex para tokenizar el tweet
-        #imprimimos el numero de iteracion junto con el texto del tweet y el conjunto ordenado de los tokens del tweet
+        #imprimimos el numero de iteracion junto con el texto del tweet y el conjunto ordenado de los tokens del tweet mayores a 3 caracteres
 		for tweet in searchWord:
 					tweet = tweet.text
 					pattern = r'''(?x)                 # set flag to allow verbose regexps
@@ -78,7 +78,9 @@ if __name__ == '__main__':
 '''
 					tokens = nltk.regexp_tokenize(tweet, pattern)
 					print(f"{count}, {tweet}")
-					print(sorted(set(tokens)))
+					words = [word for word in tokens if len(word) > 3]
+					orderedWords = sorted(set(words))
+					print(orderedWords, "\n", randomWord)
 #					count += 1
 #					switch = True
 #			#control de flujo para postear tuits
