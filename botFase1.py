@@ -33,7 +33,6 @@ def extract_status(path=None):
 def search_sentence(text): 
 	status = 250
 
-
 	#mientras tengamos un status largo o muy corto
 	while not (5 < status < 225):
 	#genera un numero aleatorio
@@ -62,7 +61,7 @@ def search_word_tweet(api):
         #imprimimos el numero de iteracion junto con el texto del tweet y el conjunto ordenado de los tokens del tweet mayores a 3 caracteres
 		for tweet in searchTweet:
 					url = f"https://twitter.com/{tweet.user.screen_name}/status/{tweet.id}"
-					tweet = tweet.text
+					tweetxt = tweet.text
 					pattern = r'''(?x)                 # set flag to allow verbose regexps
               (?:[A-Z]\.)+         # abbreviations, e.g. U.S.A.
               | \w+(?:-\w+)*       # words with optional internal hyphens
@@ -70,9 +69,9 @@ def search_word_tweet(api):
               | \.\.\.             # ellipsis
               | [][.,;"'?():-_`]   # these are separate tokens; includes ], [
 '''
-					tokens = nltk.regexp_tokenize(tweet, pattern)
-					print(f"{count}, tweet encontrado: {tweet} \n")
-					words = [word for word in tokens if len(word) > 3]
+					tokens = nltk.regexp_tokenize(tweetxt, pattern)
+					print(f"{count}, tweet encontrado: {tweetxt} \n")
+					words = [word for word in tokens if len(word) > 2]
 					orderedWords = sorted(set(words))
 					print(randomWord, "\n", orderedWords, "\n")
 					tweeting(randomWord,url)
