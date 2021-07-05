@@ -1,6 +1,6 @@
 import tweepy, re, time, nltk
 from nltk.util import ngrams
-from access import *
+from access_tfbot import *
 from random import randint
 from nltk.corpus import stopwords
 
@@ -57,7 +57,7 @@ def search_sentence(text):
 def search_word_tweet(api):
         #definimos conjunto de palabras a buscar
         #enviamos el indice aleatorio de un elemento del conjunto definido arriba
-		setWords = ["technology", "tech", "technical", "information", "technological"]
+		setWords = ["technology", "tech", "technical", "information", "informational", "technological", "intelillence"]
 		randomWord = randint(0,len(setWords)-1)
 		randomWord = setWords[randomWord]
 		#buscamos una palabra aleatoria definida anteriormente e iteramos este proceso n veces en count
@@ -118,6 +118,7 @@ def tweeting(api,randomWord,wordNgram,url):
 						api.update_status(status +" " + url)
 						print(f"{status} \n Tweet enviado!")
 						print("funciona")
+						break
 					except tweepy.TweepError as e:
 						print(e.reason)
 				else:
@@ -134,6 +135,8 @@ if __name__ == '__main__':
 	segs = 600
 	while 1 > 0:
 		search_word_tweet(bot)
+
+		input("escribe algo: \n")
 		time.sleep(segs)
 
 
