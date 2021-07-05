@@ -1,6 +1,13 @@
 import tweepy, re, time, nltk
-from access_tfbot import *
+from nltk.util import ngrams
+from access import *
 from random import randint
+from nltk.corpus import stopwords
+
+libros = ["texto.txt","texto2.txt"]
+randomBook = randint(0,len(libros)-1)
+randomBook = libros[randomBook]
+stopwd = stopwords.words('english')
 
 # Setup API:
 def twitter_setup():
@@ -43,14 +50,14 @@ def search_sentence(text):
 		status = len(text[init_index:last_index])
 	#remplaza cualquier caracter que no sea palabra y numero de linea con espacios
 	sentence = text[init_index:last_index]
-	sentence = re.sub("\W\d", " ", sentence)
+	sentence = re.sub("\W\d\n\t—[0-9],,.", " ", sentence)
 	sentence = re.sub("-","",sentence)
 	return sentence
 
 def search_word_tweet(api):
         #definimos conjunto de palabras a buscar
         #enviamos el indice aleatorio de un elemento del conjunto definido arriba
-		setWords = ["technology", "tech", "technical", "information"]
+		setWords = ["technology", "tech", "technical", "information", "technological"]
 		randomWord = randint(0,len(setWords)-1)
 		randomWord = setWords[randomWord]
 		#buscamos una palabra aleatoria definida anteriormente e iteramos este proceso n veces en count
@@ -61,7 +68,8 @@ def search_word_tweet(api):
         #imprimimos el numero de iteracion junto con el texto del tweet y el conjunto ordenado de los tokens del tweet mayores a 3 caracteres
 		for tweet in searchTweet:
 					url = f"https://twitter.com/{tweet.user.screen_name}/status/{tweet.id}"
-					tweetxt = tweet.text
+					tweetxt = tweet.text.lower()
+					wordNgram = []
 					pattern = r'''(?x)                 # set flag to allow verbose regexps
               (?:[A-Z]\.)+         # abbreviations, e.g. U.S.A.
               | \w+(?:-\w+)*       # words with optional internal hyphens
@@ -70,44 +78,62 @@ def search_word_tweet(api):
               | [][.,;"'?():-_`]   # these are separate tokens; includes ], [
 '''
 					tokens = nltk.regexp_tokenize(tweetxt, pattern)
-					print(f"{count}, tweet encontrado: {tweetxt} \n")
-					words = [word for word in tokens if len(word) > 2]
+					print(f"tweet con {randomWord} encontrado: {tweetxt} \n")
+					words = [word for word in tokens if word not in stopwd]
 					orderedWords = sorted(set(words))
-					print(randomWord, "\n", orderedWords, "\n")
-					tweeting(randomWord,url)
-                    
-					return orderedWords, randomWord, url
+                    #definimos lista de trigramas del texto del tweet y los imprimimos
+					trigrams = list(ngrams(words,3))
+					print("tweet en trigramas",trigrams,"\n")
+                    #verifica que la palabra a buscar "randomWord" esté cada elemento de la lista de trigramas
+					for trigram in trigrams:
+						#print(trigram,"\n")
+						if randomWord in trigram:
+							print(f"trigramas que incluyen {randomWord} ",trigram,"\n")
+	                    #si es así, agrega el trigrama a la lista "wordNgram"
+							wordNgram.append(trigram)
+#							print(wordNgram)
+# 						#print(randomWord, "\n", orderedWords, "\n")
+						else:
+							pass
+# 								search_word_tweet(api)
+					tweeting(api,randomWord,wordNgram,url)
+					return orderedWords, randomWord, url, trigrams, wordNgram
 
-def tweeting(randomWord,url):
-		status = extract_status("texto.txt")
+def tweeting(api,randomWord,wordNgram,url):
+		checkNgram = []
+		status = extract_status(randomBook)
 		#tokenizamos el texto a enviar mayor a tres caracteres"
 		status_tokens = nltk.tokenize.word_tokenize(status)
-		status_tokens = [word for word in status_tokens if len(word) > 3]
-		print(status_tokens)
-        #si la palabra a buscar está en el texto tokenizado seleccionado de la data base, enviar tweet como retweet citado
+		status_tokens = [word for word in status_tokens if word not in stopwd]
+		print("status tokenizado",status_tokens,"\n")
 		if randomWord in status_tokens:
-				try:
-					bot.update_status(status +" " + url)
-					print(f"{status} \n Tweet enviado!")
-					print("funciona")
-				except tweepy.TweepError as e:
-					print(e.reason)
+			trigramStatus = list(ngrams(status_tokens,3))
+			print("status organizado en trigramas",trigramStatus,"\n")
+        #si la palabra a buscar está en el texto tokenizado seleccionado de la data base, enviar tweet como retweet citado
+			for trig in trigramStatus:
+				if randomWord in trig:
+					print("trigramamamammamama",trig,"\n")
+					checkNgram.append(trig)
+					try:
+						api.update_status(status +" " + url)
+						print(f"{status} \n Tweet enviado!")
+						print("funciona")
+					except tweepy.TweepError as e:
+						print(e.reason)
+				else:
+					pass
 		else:
-					while not randomWord in status_tokens:
-						tweeting(randomWord, url)
-          #break
-          
-						return status, status_tokens
-    
-if __name__ == '__main__':
-		#configurar API de twitter
-		bot = twitter_setup()
-		#delay
-		segs = 600
-		count = 0
+			tweeting(api, randomWord, wordNgram, url)
+		return status, status_tokens, checkNgram
 
-		while 1 > 0:
-			search_word_tweet(bot)
-			time.sleep(segs)
+
+if __name__ == '__main__':
+	#configurar API de twitter
+	bot = twitter_setup()
+	#delay
+	segs = 600
+	while 1 > 0:
+		search_word_tweet(bot)
+		time.sleep(segs)
 
 
