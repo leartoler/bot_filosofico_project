@@ -1,6 +1,6 @@
-import tweepy, time
+import tweepy, time, json
 from access import *
-from random import randint
+#from random import randint
 
 # Setup API:
 def twitter_setup():
@@ -20,22 +20,34 @@ if __name__ == '__main__':
     secs = 180
 
 
-    tweetlist = ["tuit de prueba 1",
-                "tuit de prueba 2",
-                "tuit de prueba 3"]
+    #  tweetlist = ["lol",
+    #               "trololol",
+    #               "a"]
 
     
-    for tweet in tweetlist:
+    #  for tweet in tweetlist:
   
-        print(tweet)
+    #      print(tweet)
 
         
-        try:
-            bot.update_status(tweet)
-            print("Tweet enviado!")
-        except tweepy.TweepError as e:
-            print(e.reason)
+    #      try:
+    # #funcion para subir un tweet    
+    #          bot.update_status(tweet)
+    #          print("Tweet enviado!")
+    #      except tweepy.TweepError as e:
+    #          print(e.reason)
+    #hacer una busqueda
+    tw = bot.search(q="tech")
+    #imprimir ultimos 10 tw del feed
+    public_tweets = bot.home_timeline(count=1)
 
-
+    count = 0
+		
+    for tweet in public_tweets:
+        print("", json.dumps(tweet._json, indent=2))
+        print(f"https://twitter.com/{tweet.user.screen_name}/status/{tweet.id}")
+        #print(f"{count}. {tweet}")
+        count+=1
         # Wait till next sentence extraction:
-        time.sleep(secs)
+    time.sleep(secs)
+    
