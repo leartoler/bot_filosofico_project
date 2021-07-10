@@ -8,6 +8,7 @@ libros = ["texto.txt","texto2.txt"]
 randomBook = randint(0,len(libros)-1)
 randomBook = libros[randomBook]
 stopwd = stopwords.words('english')
+data = {}
 
 # Setup API:
 def twitter_setup():
@@ -57,7 +58,7 @@ def search_sentence(text):
 def search_word_tweet(api):
         #definimos conjunto de palabras a buscar
         #enviamos el indice aleatorio de un elemento del conjunto definido arriba
-		setWords = ["technology", "tech", "technical", "information", "informational", "technological", "intelillence"]
+		setWords = ["technology", "tech", "technical", "information", "informational", "technological", "intelillence", "device", "tool"]
 		randomWord = randint(0,len(setWords)-1)
 		randomWord = setWords[randomWord]
 		#buscamos una palabra aleatoria definida anteriormente e iteramos este proceso n veces en count
@@ -88,6 +89,7 @@ def search_word_tweet(api):
 					for trigram in trigrams:
 						#print(trigram,"\n")
 						if randomWord in trigram:
+                            
 							print(f"trigramas que incluyen {randomWord} ",trigram,"\n")
 	                    #si es así, agrega el trigrama a la lista "wordNgram"
 							wordNgram.append(trigram)
@@ -96,8 +98,9 @@ def search_word_tweet(api):
 						else:
 							pass
 # 								search_word_tweet(api)
+					data.update({"word_searched":randomWord,"tweet_found":tweetxt,"tweet_found_tokens":tokens,"twt_found_ordered_tokens":orderedWords,"random_word_in_trigram":wordNgram})
 					tweeting(api,randomWord,wordNgram,url)
-					return orderedWords, randomWord, url, trigrams, wordNgram
+					return randomWord, url, wordNgram
 
 def tweeting(api,randomWord,wordNgram,url):
 		checkNgram = []
@@ -116,6 +119,7 @@ def tweeting(api,randomWord,wordNgram,url):
 					checkNgram.append(trig)
 					try:
 						api.update_status(status +" " + url)
+						data.update({"txt_sended":status,"txt_sended_tokens":status_tokens,"word_in_twt_trigrams":checkNgram})
 						print(f"{status} \n Tweet enviado!")
 						print("funciona")
 						break
@@ -133,10 +137,8 @@ if __name__ == '__main__':
 	bot = twitter_setup()
 	#delay
 	segs = 600
-	while 1 > 0:
-		search_word_tweet(bot)
+	search_word_tweet(bot)
 
-		input("escribe algo: \n")
-		time.sleep(segs)
+	#time.sleep(segs)
 
 
