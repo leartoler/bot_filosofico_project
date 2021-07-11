@@ -10,6 +10,14 @@ randomBook = libros[randomBook]
 stopwd = stopwords.words('english')
 data = {}
 
+def writing_db():
+	with open("./db/data.py",mode="a", encoding="utf-8", errors="surrogateescape") as db:
+		db.write("\n collection.insert_one(")
+		db.write(str(data))
+		db.write(")")
+		db.write("\n")
+
+
 # Setup API:
 def twitter_setup():
 	# Authenticate and access using keys:
@@ -120,6 +128,7 @@ def tweeting(api,randomWord,wordNgram,url):
 					try:
 						api.update_status(status +" " + url)
 						data.update({"txt_sended":status,"txt_sended_tokens":status_tokens,"word_in_twt_trigrams":checkNgram})
+						writing_db()
 						print(f"{status} \n Tweet enviado!")
 						print("funciona")
 						break
@@ -137,8 +146,7 @@ if __name__ == '__main__':
 	bot = twitter_setup()
 	#delay
 	segs = 600
-	search_word_tweet(bot)
-
-	#time.sleep(segs)
-
+	while True:
+		search_word_tweet(bot)
+		time.sleep(segs)
 
