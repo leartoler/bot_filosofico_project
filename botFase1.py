@@ -100,6 +100,7 @@ def tweet_constructor(api,randomWord,url):
 		status_tokens = [word for word in status_tokens if word not in stopwd]
 		print("status tokenizado",status_tokens,"\n")
 		checkNgram = ngrammatize(status_tokens, randomWord, url, api)
+		send_twt(api, status, url)
 		data.update({"txt_sended":status,"txt_sended_tokens":status_tokens,"word_in_twt_trigrams":checkNgram})
 		return status, status_tokens
 
@@ -120,7 +121,7 @@ def ngrammatize(tokens, randomWord, url,api):
 			ngramGroup = list(ngrams(tokens, x))
 			nGrams.append(ngramGroup)
 		ngramas = [elemento for ngrama in nGrams for elemento in ngrama if randomWord in elemento]
-		print(f"{ngramas} \n {len(ngramas)}\n")
+		print(f"Lista de ngramas que incluyen {randomWord}:\n{ngramas} \n {len(ngramas)}\n")
 		word_in_Ngrams.update({"ngramas":ngramas})
 	else:
 		tweet_constructor(api,randomWord,url)
