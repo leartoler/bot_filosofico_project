@@ -28,7 +28,10 @@ def randomThesis():
 
 
 if __name__ == '__main__':
+    segs = 600
     bot = twitter_setup()
-    tesis = randomThesis()
-    bot.update_status(tesis)
-    print(f'Tuit enviado: {tesis}')
+    while True:
+        tesis = randomThesis()
+        bot.update_status(tesis)
+        print(f'Tuit enviado: {tesis}')
+    time.sleep(segs)
