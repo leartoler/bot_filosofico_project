@@ -89,7 +89,6 @@ def search_word_tweet(api):
 					for trigram in trigrams:
 						#print(trigram,"\n")
 						if randomWord in trigram:
-                            
 							print(f"trigramas que incluyen {randomWord} ",trigram,"\n")
 	                    #si es así, agrega el trigrama a la lista "wordNgram"
 							wordNgram.append(trigram)
@@ -99,10 +98,10 @@ def search_word_tweet(api):
 							pass
 # 								search_word_tweet(api)
 					data.update({"word_searched":randomWord,"tweet_found":tweetxt,"tweet_found_tokens":tokens,"twt_found_ordered_tokens":orderedWords,"random_word_in_trigram":wordNgram})
-					tweeting(api,randomWord,wordNgram,url)
-					return randomWord, url, wordNgram
+					tweet_constructor(api,randomWord,url)
+					return randomWord, url, tokens
 
-def tweeting(api,randomWord,wordNgram,url):
+def tweet_constructor(api,randomWord,url):
 		checkNgram = []
 		status = extract_status(randomBook)
 		#tokenizamos el texto a enviar mayor a tres caracteres"
@@ -117,20 +116,34 @@ def tweeting(api,randomWord,wordNgram,url):
 				if randomWord in trig:
 					print("trigramamamammamama",trig,"\n")
 					checkNgram.append(trig)
-					try:
-						api.update_status(status +" " + url)
-						data.update({"txt_sended":status,"txt_sended_tokens":status_tokens,"word_in_twt_trigrams":checkNgram})
-						print(f"{status} \n Tweet enviado!")
-						print("funciona")
-						break
-					except tweepy.TweepError as e:
-						print(e.reason)
 				else:
 					pass
+			send_twt(api, status, url)
 		else:
-			tweeting(api, randomWord, wordNgram, url)
-		return status, status_tokens, checkNgram
+				tweet_constructor(api,randomWord,url)
+		data.update({"txt_sended":status,"txt_sended_tokens":status_tokens,"word_in_twt_trigrams":checkNgram})
+		return status, status_tokens
 
+def send_twt(api, status, url):
+		try:
+			api.update_status(status +" " + url)
+			print(f"{status} \n Tweet enviado!")
+			print("funciona")
+		except tweepy.TweepError as e:
+			print(e.reason)
+
+def ngrammatize(tokens, randomWord):
+	len_tokens = len(tokens)
+	nGrams = []
+	word_in_Ngrams = {}
+	if randomWord in tokens:
+		for x in range(1,len_tokens-1):
+			ngramGroup = list(ngrams(tokens, x))
+			nGrams.append(ngramGroup)
+		ngramas = [elemento for ngrama in nGrams for elemento in ngrama if randomWord in elemento]
+		print(ngramas,"\n",len(ngramas))
+		word_in_Ngrams.update({"ngramas":ngramas})
+		return word_in_Ngrams
 
 if __name__ == '__main__':
 	#configurar API de twitter
