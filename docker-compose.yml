@@ -1,0 +1,31 @@
+version: '3'
+services:
+  bot:
+    command: tail -f /dev/null
+    container_name: bot
+    restart: always
+    build:
+      context: .
+      dockerfile: bot.dockerfile
+    networks:
+      - theses-network
+    volumes:
+      - .:/bot
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    restart: unless-stopped
+    image: mongo
+    ports:
+      - "27017"
+    networks:
+      - theses-network
+    volumes:
+      - mongodbdata:/data/db
+volumes:
+  mongodbdata:
+    external: true
+networks:
+  theses-network:
+    external: true
