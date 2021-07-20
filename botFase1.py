@@ -3,6 +3,7 @@ from nltk.util import ngrams
 from access_tfbot import *
 from random import randint
 from nltk.corpus import stopwords
+from nltk.probability import FreqDist
 
 #se definen algunas variables globales
 libros = ["texto.txt","texto2.txt"]
@@ -84,12 +85,16 @@ def search_word_tweet(api):
 					tokens = nltk.regexp_tokenize(tweetxt, pattern)
 					print(f"tweet con {randomWord} encontrado: {tweetxt} \n")
 					words = [word for word in tokens if word not in stopwd]
+                    #sacamos frecuencia de palabras filtradas
+					freqs = FreqDist(words)
+					freqs = {key: value for key, value in freqs.items()}
 					orderedWords = sorted(set(words))
                     #llamamos a la funcion ngrammatize para hacer ngramas
                     #con los tokens del tweet, verificando que randomWord
                     #(o la palabra a buscar) pertenece a todos y c/u de los ngramas
-					wordNgram = ngrammatize(tokens, randomWord, url, api)
-					data.update({"word_searched":randomWord,"tweet_found":tweetxt,"tweet_found_tokens":tokens,"twt_found_ordered_tokens":orderedWords,"random_word_in_trigram":wordNgram})
+					wordNgram = ngrammatize(words, randomWord, api, url)
+					print(f"frecuencias: {freqs}\n {randomWord} en los n-gramas del tweet")
+					data.update({"word_searched":randomWord,"tweet_found":tweetxt,"tweet_found_tokens":words,"frecuencia_tokens":freqs,"twt_found_ordered_tokens":orderedWords,"random_word_in_trigram":wordNgram})
 					tweet_constructor(api,randomWord,url)
 					return randomWord, url, tokens
 
@@ -98,21 +103,23 @@ def tweet_constructor(api,randomWord,url):
 		#tokenizamos el texto a enviar mayor a tres caracteres"
 		status_tokens = nltk.tokenize.word_tokenize(status)
 		status_tokens = [word for word in status_tokens if word not in stopwd]
-		print("status tokenizado",status_tokens,"\n")
-		checkNgram = ngrammatize(status_tokens, randomWord, url, api)
+		freqs = FreqDist(status_tokens)
+		freqs = {key: value for key, value in freqs.items()}
+		checkNgram = ngrammatize(status_tokens, randomWord, api, url)
+		print(f"status tokenizado {status_tokens}\n frecuencias {freqs}\n {randomWord} en n-gramas del texto")
 		send_twt(api, status, url)
-		data.update({"txt_sended":status,"txt_sended_tokens":status_tokens,"word_in_twt_trigrams":checkNgram})
+		data.update({"txt_sended":status,"txt_sended_tokens":status_tokens,"frecuencias_tokens":freqs,"word_in_twt_trigrams":checkNgram})
 		return status, status_tokens
 
-def send_twt(api, status, url):
+def send_twt(api, status, url): 
 		try:
-			api.update_status(status +" " + url)
+			#api.update_status(status +" " + url)
 			print(f"{status} \n Tweet enviado!")
 			print("funciona")
 		except tweepy.TweepError as e:
 			print(e.reason)
 
-def ngrammatize(tokens, randomWord, url,api):
+def ngrammatize(tokens, randomWord, api, url):
 	len_tokens = len(tokens)
 	nGrams = []
 	word_in_Ngrams = {}
@@ -121,7 +128,7 @@ def ngrammatize(tokens, randomWord, url,api):
 			ngramGroup = list(ngrams(tokens, x))
 			nGrams.append(ngramGroup)
 		ngramas = [elemento for ngrama in nGrams for elemento in ngrama if randomWord in elemento]
-		print(f"Lista de ngramas que incluyen {randomWord}:\n{ngramas} \n {len(ngramas)}\n")
+		print(f"Lista de ngramas que incluyen {randomWord}:\n{ngramas}\n Un total de {len(ngramas)} n-gramas\n")
 		word_in_Ngrams.update({"ngramas":ngramas})
 	else:
 		tweet_constructor(api,randomWord,url)

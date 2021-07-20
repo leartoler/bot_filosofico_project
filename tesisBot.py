@@ -34,4 +34,4 @@ if __name__ == '__main__':
         tesis = randomThesis()
         bot.update_status(tesis)
         print(f'Tuit enviado: {tesis}')
-    time.sleep(segs)
+        time.sleep(segs)
