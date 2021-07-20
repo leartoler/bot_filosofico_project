@@ -14,15 +14,15 @@ def randomThesis():
     tesisRandom = tesis_db[rand]
     keywords = tesisRandom['keywords']
     url = tesisRandom['rawData']['file']
-    author = tesisRandom['rawData']['author']
+    author = tesisRandom['author']
     author = nltk.tokenize.word_tokenize(author)
     author = [i for i in author if len(i) > 1][::-1]
     author = re.sub("\W"," ",str(author))
     author = "".join(author)
     author = re.sub("[  ]+"," ",author)
-    title = tesisRandom['rawData']['title']
+    title = tesisRandom['title']
     year = tesisRandom['rawData']['year']
-    grade = tesisRandom['rawData']['fields']['Grado']
+    grade = tesisRandom['degree']
     text = f"Tesis del año {year} titulada \"{title}\", escrita por{author}para obtener el grado en {grade}. La puedes consultar en {url}"
     return text
 

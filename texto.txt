@@ -1,26 +1,8 @@
 
-Rhythm and Technics: On Heidegger’s Commentary on Rimbaud
-
-Yuk Hui
-Leuphana University
-
-yuk.hui@leuphana.de
-
-Abstract
-
-This article takes up Heidegger’s commentary on Rimbaud’s Lettres du voyant as the starting point for an exploration of the question of rhythm in Heidegger’s thought, and an attempt to situate it within his understanding of technics and Being. Besides pursu-ing a historical study of the concept of rhythm in Heidegger’s work, this article pro-poses to understand rhythm through the concept of individuation. It responds to the French philosopher Jacques Garelli’s critique of Heidegger that the latter ignores the question of individuation and always starts with beings that are already individuated. On the contrary, this article attempts to sketch a theory of individuation of rhythm in Heidegger’s proper thinking through a re-interpretation of the Fug—a word he used to translate the Greek word δίκη and words derived from it: joint (Fuge), structure (Gefüge), submission (sich fugen), etc.
-
-Keywords
-
-Heidegger – Simondon – Garelli – individuation – rhythm
 
 In 1972, in a letter addressed to the French writer Roger Munier, Heidegger mentioned a collection of poems by Arthur Rimbaud prefaced by René Char.1 This letter was later published in Aus der Erfahrung des Denkens (GA 13) with the title Rimbaud Vivant. It was probably the first time Heidegger had talked about a poet without citing his or her poem. Heidegger was impressed by two letters included in this volume, and was therefore motivated to write the small
 
 1  I would like to thank Pieter Lemmens for his comments on the first draft of this article.
-
-61Rhythm and Technics
-
-research in phenomenology 47 (2017) 60–84
 
 article, directly as a response to his correspondence with René Char. Heidegger posed the question at the beginning: what does it mean to be a significant [lebendig] poet today? Heidegger immediately replied that the poet must have a certain relation to the arrival of the unknown [Unbekannten]. This relation consists of defining the role of a poet and artist after modernisation, namely after the development of modern science and technology.
 
@@ -34,9 +16,6 @@ This relation between thinking and poetry has been widely explored con-cerning H
 
 4  J. Gosetti-Ferencei, Heidegger, Hölderlin, and the Subject of Poetic Language: Toward a New Poetics of Dasein (New York: Fordham University Press, 1994), 233.
 
-62 hui
-
-research in phenomenology 47 (2017) 60–84
 
 thinking of the question of Being.5 However, the relation between poetry and technics seems to be not yet sufficiently analyzed, apart from some attempts to understand what Heidegger calls Gelassenheit. Is it possible to think of a productive relation between technology and poetry, other than the new genre in literature like “digital poetry,” which basically does not touch the essence of technology at all? We shall proceed with the following questions: shall think-ing be the mediator, by which such a relation can be established? If it is so, how can we approach this question? And if it is not, then what would the dynamics look like? This article suggests that Heidegger’s remarks on Rimbaud may serve the communication between poetry and technics as well as thinking.
 
@@ -48,9 +27,7 @@ We will however, bypass a more detailed historical correspondence on the relatio
 
 rapher Alfred Denker (from personal correspondence), Heidegger’s favorite composer was Mozart, and he had a gramophone in his hut, where he listened to music in the evening.
 
-63Rhythm and Technics
 
-research in phenomenology 47 (2017) 60–84
 
 Objects is one of the most original and fine studies of the genesis of technol-ogy as well as an indirect response to the question of the Gestell. A reading of Heidegger through Simondon hopes to take his reductive thinking on technol-ogy to a new terrain, to shed new light on the understanding of technics, and to hint at a different approach toward technology other than that of Gelassenheit.
 
@@ -66,9 +43,7 @@ At first glance, this shift in the function of rhythm corresponds to the problem
 
 8  In Heidegger, trans. Hofstadter, Poetry, Language, Thought (San Francisco: Harper, 2001), 95.9  Ibid., 115.
 
-64 hui
 
-research in phenomenology 47 (2017) 60–84
 
 implication for thinking along the lines of technology. Poetry is crucial, since for Heidegger all types of art should be considered essentially poetic: “[T]he one concerns art. In it (art) the essential determining force is the poetic.”10 First of all, we need to ask: what does Heidegger mean by rhythm? What is its relation to poetry, and what is its relation to the question of Being?
 
