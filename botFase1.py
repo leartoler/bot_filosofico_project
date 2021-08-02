@@ -12,7 +12,7 @@ data = {}
 
 def writing_db():
 	with open("./db/data.py",mode="a", encoding="utf-8", errors="surrogateescape") as db:
-		db.write("\n collection.insert_one(")
+		db.write("collection.insert_one(")
 		db.write(str(data))
 		db.write(")")
 		db.write("\n")
@@ -66,7 +66,13 @@ def search_sentence(text):
 def search_word_tweet(api):
         #definimos conjunto de palabras a buscar
         #enviamos el indice aleatorio de un elemento del conjunto definido arriba
-		setWords = ["technology", "tech", "technical", "information", "informational", "technological", "intelillence", "device", "tool"]
+		setWords = ["technology", "tech",
+			"technical", "information",
+			"informational", "technological",
+			"artificial intelillence",
+			"device", "tool",
+			"ai", "algorithm",
+			"instrument"]
 		randomWord = randint(0,len(setWords)-1)
 		randomWord = setWords[randomWord]
 		#buscamos una palabra aleatoria definida anteriormente e iteramos este proceso n veces en count
@@ -148,5 +154,5 @@ if __name__ == '__main__':
 	segs = 600
 	while True:
 		search_word_tweet(bot)
-		time.sleep(segs)
+		break#time.sleep(segs)
 
