@@ -68,6 +68,7 @@ def search_sentence(text):
 	sentence = re.sub("-","",sentence)
 	return sentence
 
+#funcion que busca una palabra de setWords en Twitter para construir un tweet en consecuencia
 def search_word_tweet(api):
         #definimos conjunto de palabras a buscar
         #enviamos el indice aleatorio de un elemento del conjunto definido arriba
@@ -112,6 +113,7 @@ def search_word_tweet(api):
 					tweet_constructor(api,randomWord,url)
 					return randomWord, url, words
 
+#funcion que construye el tweet a enviar
 def tweet_constructor(api,randomWord,url):
 		status = extract_status(randomBook)
 		#tokenizamos el texto a enviar mayor a tres caracteres"
@@ -128,6 +130,7 @@ def tweet_constructor(api,randomWord,url):
 			tweet_constructor(api, randomWord, url)
 		return status, status_tokens
 
+#función que envia tweet
 def send_twt(api, status, url): 
 		try:
 			#api.update_status(status +" " + url)
@@ -136,6 +139,8 @@ def send_twt(api, status, url):
 		except tweepy.TweepError as e:
 			print(e.reason)
 
+#funcion que ngramatiza un texto de entrada que incluya randomWord
+#retorna un diccionario con todos los ngramas como valor 
 def ngrammatize(words, randomWord, api, url):
 	len_tokens = len(words)
 	nGrams = []
