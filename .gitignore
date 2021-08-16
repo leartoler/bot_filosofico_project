@@ -9,3 +9,5 @@ access.py
 access_tfbot.py
 access_xoor.py
 keys.py
+/myvenv/*
+/venv_tfbot/*
