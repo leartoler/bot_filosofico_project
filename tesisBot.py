@@ -33,11 +33,11 @@ def filtrarThesis(url,author,title,year,grade):
     if url == Undefined:
         text = f"Tesis del año {year} titulada \"{title}\", escrita por{author} para obtener el grado en {grade}."
     else:
-        txt = f"Tesis del año {year} titulada \"{title}\", escrita por{author} para obtener el grado en {grade}. La puedes consultar en {url}"
-        if len(txt) > 255:
-            text = ""
+        text = f"Tesis del año {year} titulada \"{title}\", escrita por{author} para obtener el grado en {grade}. La puedes consultar en {url}"
+        if len(text) > 255:
+            text = f"{author} ({year}) \"{title}\".\n {url}"
         else:
-            
+            return text
     return text
 
 #definimos funcion para retweet

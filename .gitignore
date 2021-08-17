@@ -2,7 +2,7 @@
 *.log
 *.pot
 *.pyc
-__pycache__/
+/__pycache__/*
 /auth
 local_settings.py
 access.py
@@ -11,3 +11,4 @@ access_xoor.py
 keys.py
 /myvenv/*
 /venv_tfbot/*
+/bot/*
