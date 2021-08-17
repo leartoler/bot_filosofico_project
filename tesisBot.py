@@ -41,6 +41,12 @@ def filtrarThesis(url,author,title,year,grade):
     return text
 
 #definimos funcion para retweet
+def retwt():
+    tfBot_timeLine = bot.user_timeline()
+    lastTwt_id = tfBot_timeLine[0].id
+    tfBot = tfBot_timeLine[0].user.screen_name
+    rt = f"#SeminarioTF #TesisFilosUNAM https://twitter.com/{tfBot}/status/{lastTwt_id}"
+    bot.update_status(rt)
 
 if __name__ == '__main__':
     segs = 600
@@ -50,4 +56,7 @@ if __name__ == '__main__':
         tesis = filtrarThesis(url, author, title, year, grade)
         bot.update_status(tesis)
         print(f'Tuit enviado: {tesis}')
+        time.sleep(30)
+        retwt()
+        print("Retweet enviado!")
         time.sleep(segs)
