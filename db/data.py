@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+
+@author: dgrm
+"""
+
 import pymongo
 from access_tfbot import MONGO_TOKEN
 client = pymongo.MongoClient(MONGO_TOKEN)

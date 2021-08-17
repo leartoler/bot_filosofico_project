@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+
+
+@author: dgrm
+"""
+
 from nltk.sem.evaluate import Undefined
 import requests, json, tweepy, nltk, re
 from botFase1 import *
@@ -26,18 +34,17 @@ def randomThesis():
     title = tesisRandom['title']
     year = tesisRandom['rawData']['year']
     grade = tesisRandom['degree']
-    return url, author, title, year, grade
+    return url, author, title, year, grade, keywords
 
 #definimos funcion para el filtrado de tesis
-def filtrarThesis(url,author,title,year,grade):
-    if url == Undefined:
-        text = f"Tesis del año {year} titulada \"{title}\", escrita por{author} para obtener el grado en {grade}."
-    else:
+def filtrarThesis(url, author, title, year, grade,keywords):
+    try:
         text = f"Tesis del año {year} titulada \"{title}\", escrita por{author} para obtener el grado en {grade}. La puedes consultar en {url}"
         if len(text) > 255:
             text = f"{author} ({year}) \"{title}\".\n {url}"
-        else:
-            return text
+    except:
+        text = f"Tesis del año {year} titulada \"{title}\", escrita por{author} para obtener el grado en {grade}."
+        
     return text
 
 #definimos funcion para retweet
@@ -52,8 +59,8 @@ if __name__ == '__main__':
     segs = 600
     bot = twitter_setup()
     while True:
-        url, author, title, year, grade = randomThesis()
-        tesis = filtrarThesis(url, author, title, year, grade)
+        url, author, title, year, grade, keywords = randomThesis()
+        tesis = filtrarThesis(url, author, title, year, grade,keywords)
         bot.update_status(tesis)
         print(f'Tuit enviado: {tesis}')
         time.sleep(30)

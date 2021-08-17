@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+
+@author: dgrm
+"""
+
 import tweepy, re, time, nltk
 from nltk.util import ngrams
 from access_tfbot import *
