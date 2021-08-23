@@ -13,18 +13,26 @@ from tesisBot import *
 
 
 def replyQuery(bot):
-    for i in mentions:
-        if "tesis relacionada" in i.text:
-            url, author, title, year, grade, keywords = randomThesis()
-            tesis = filtrarThesis(url,author,title,year,grade,keywords)
-            tokens = nltk.tokenize.word_tokenize(i.text)
-            for i in tokens:
-                if i in keywords:
-                    print(tesis)
-                    return tesis
-                else:
-                    replyQuery(bot)
-                    print("algo raro")
+    for mention in mentions:
+        if "tesis relacionada" in mention.text:
+            text_split = mention.text.split("@_TFbot tesis relacionada con ")
+            print(f"{mention.text} \n {str(text_split)}")
+            tokens = nltk.tokenize.word_tokenize(str(text_split))
+            print(tokens)
+            def selectTesis():
+                tesis = randomThesis()
+                keywords = tesis[5]
+                print(keywords)
+                for token in tokens:
+                    if token in keywords:
+                        tesis = filtrarThesis(tesis)
+                        print(tesis)
+                        return tesis
+                    else:
+                        selectTesis()
+            tesis = selectTesis()
+            return tesis
+
 
 
 if __name__ == '__main__':
@@ -32,5 +40,5 @@ if __name__ == '__main__':
     bot = twitter_setup()
     mentions = bot.mentions_timeline()
     reply = replyQuery(bot)
-    bot.update_status(reply)
+    #bot.update_status(reply)
     print(f"Respuesta enviada: {reply}")

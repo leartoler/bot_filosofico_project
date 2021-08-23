@@ -19,10 +19,13 @@ tesis_db = api['data']
 #definimos funcion para seleccionar una tesis al azar
 def randomThesis():
 #tomamos una tesis al azar y guardamos algunos campos
-    rand = randint(1, len(tesis_db))
+    rand = randint(1, len(tesis_db)-1)
     tesisRandom = tesis_db[rand]
     keywords = tesisRandom['keywords']
-    url = tesisRandom['rawData']['file']
+    try:
+        url = tesisRandom['rawData']['file'] 
+    except:
+        url = Undefined
     #convertir el orden del nombre del autor de apellidos, nombre a nombre apellidos
     #tokenizamos, invertimos y filtramos caracteres no significativos como "," etc
     author = tesisRandom['author']
@@ -37,13 +40,13 @@ def randomThesis():
     return url, author, title, year, grade, keywords
 
 #definimos funcion para el filtrado de tesis
-def filtrarThesis(url, author, title, year, grade,keywords):
-    try:
-        text = f"Tesis del año {year} titulada \"{title}\", escrita por{author} para obtener el grado en {grade}. La puedes consultar en {url}"
+def filtrarThesis(randomThesis):
+    if randomThesis[0] != Undefined:
+        text = f"Tesis del año {randomThesis[3]} titulada \"{randomThesis[2]}\", escrita por{randomThesis[1]} para obtener el grado en {randomThesis[4]}. La puedes consultar en {randomThesis[0]}"
         if len(text) > 255:
-            text = f"{author} ({year}) \"{title}\".\n {url}"
-    except:
-        text = f"Tesis del año {year} titulada \"{title}\", escrita por{author} para obtener el grado en {grade}."
+            text = f"{randomThesis[1]} ({randomThesis[3]}) \"{randomThesis[2]}\".\n {randomThesis[0]}"
+    else:
+        text = f"Tesis del año {randomThesis[3]} titulada \"{randomThesis[2]}\", escrita por{randomThesis[1]} para obtener el grado en {randomThesis[4]}."
         
     return text
 
@@ -59,11 +62,11 @@ if __name__ == '__main__':
     segs = 600
     bot = twitter_setup()
     while True:
-        url, author, title, year, grade, keywords = randomThesis()
-        tesis = filtrarThesis(url, author, title, year, grade,keywords)
-        bot.update_status(tesis)
+        tesis_tupla = randomThesis()
+        tesis = filtrarThesis(tesis_tupla)
+        #bot.update_status(tesis)
         print(f'Tuit enviado: {tesis}')
         time.sleep(30)
-        retwt()
-        print("Retweet enviado!")
+        #retwt()
+        #print("Retweet enviado!")
         time.sleep(segs)
